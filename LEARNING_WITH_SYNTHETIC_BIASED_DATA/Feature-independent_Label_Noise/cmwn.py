@@ -19,11 +19,9 @@ torch.multiprocessing.set_sharing_strategy('file_system')
 parser = argparse.ArgumentParser(description='PyTorch CIFAR Training')
 parser.add_argument('--batch_size', default=128, type=int, help='train batchsize') 
 parser.add_argument('--lr', '--learning_rate', default=0.02, type=float, help='initial learning rate')
+parser.add_argument('--ema', default=0.997, type=float)
 parser.add_argument('--noise_mode',  default='asym')
 parser.add_argument('--alpha', default=1., type=float, help='parameter for Beta')
-parser.add_argument('--lambda_u', default=25, type=float, help='weight for unsupervised loss')
-parser.add_argument('--p_threshold', default=0.5, type=float, help='clean probability threshold')
-parser.add_argument('--T', default=0.5, type=float, help='sharpening temperature')
 parser.add_argument('--num_epochs', default=300, type=int)
 parser.add_argument('--r', default=0.8, type=float, help='noise ratio')
 parser.add_argument('--id', default='')
@@ -121,7 +119,7 @@ def warmup(epoch,model,model_ema,vnet,optimizer_model,optimizer_vnet,train_loade
         with torch.no_grad():
             outputs_ema = model_ema(inputs)
             psudo_label = criterion(outputs_ema, index, epoch)
-            outputs_loss = model(inputs)
+            # outputs_loss = model(inputs)
 
         l = torch.distributions.beta.Beta(args.alpha, args.alpha).sample().cuda()
         l = max(l, 1-l)
@@ -133,11 +131,11 @@ def warmup(epoch,model,model_ema,vnet,optimizer_model,optimizer_vnet,train_loade
             meta_model.load_state_dict(model.state_dict())
             outputs = meta_model(mix_inputs)
 
-            cost_1 = F.cross_entropy(outputs_loss, targets, reduce=False)
+            cost_1 = F.cross_entropy(outputs, targets, reduce=False)
             cost_11 = torch.reshape(cost_1, (len(cost_1), 1))
             v_lambda_1 = vnet(cost_11.data, targets.data, c).squeeze(1)
 
-            cost_2 = F.cross_entropy(outputs_loss[idx], targets[idx], reduce=False)
+            cost_2 = F.cross_entropy(outputs[idx], targets[idx], reduce=False)
             cost_12 = torch.reshape(cost_2, (len(cost_2), 1))
             v_lambda_2 = vnet(cost_12.data, targets[idx].data, c).squeeze(1)
 
@@ -174,10 +172,10 @@ def warmup(epoch,model,model_ema,vnet,optimizer_model,optimizer_vnet,train_loade
 
         outputs = model(mix_inputs)
 
-        cost_1 = F.cross_entropy(outputs_loss, targets, reduce=False)
+        cost_1 = F.cross_entropy(outputs, targets, reduce=False)
         cost_11 = torch.reshape(cost_1, (len(cost_1), 1))
 
-        cost_2 = F.cross_entropy(outputs_loss[idx], targets[idx], reduce=False)
+        cost_2 = F.cross_entropy(outputs[idx], targets[idx], reduce=False)
         cost_12 = torch.reshape(cost_2, (len(cost_2), 1))
 
         with torch.no_grad():
@@ -193,7 +191,7 @@ def warmup(epoch,model,model_ema,vnet,optimizer_model,optimizer_vnet,train_loade
         my_wl(cost_11, v_lambda_1, index)
 
         for (param, param_ema) in zip(model.params(), model_ema.params()):
-            param_ema.data.mul_(0.997).add_(0.003, param.data)
+            param_ema.data.mul_(args.ema).add_(1-args.ema, param.data)
 
         sys.stdout.write('\r')
         sys.stdout.write('%s | Epoch [%3d/%3d] Iter[%4d/%4d]\t CE-loss: %.4f'
@@ -221,7 +219,7 @@ def train_CE(train_loader, model, model_ema, optimizer,epoch):
         # print('loss:', loss)
 
         for (param, param_ema) in zip(model.params(), model_ema.params()):
-            param_ema.data.mul_(0.997).add_(0.003, param.data)
+            param_ema.data.mul_(args.ema).add_(1-args.ema, param.data)
 
         train_loss += loss.item()
         _, predicted = outputs.max(1)
@@ -331,34 +329,15 @@ for i in range(3):
 
 print(w)
 
-if args.noise_mode == 'sym':
-    criterion = get_loss(labels=np.asarray(web_num), num_classes=args.num_class, momentum=0.9)
-else:
-    criterion = get_loss(labels=np.asarray(web_num), num_classes=args.num_class, momentum=0.)
-
+criterion = get_loss(labels=np.asarray(web_num), num_classes=args.num_class, momentum=0.)
 
 my_wl = get_weight_loss(labels=np.asarray(web_num))
 
-# folder = 'mwn_end/%s_%f_%f_%s' % (args.dataset, args.r, args.alpha, args.noise_mode)
-# if not os.path.exists('/media/admin001/Model/save/' + folder):
-# #     # os.makedirs('./save/' + folder)
-#     os.makedirs('/media/admin001/Model/save/' + folder)
 
 vnet = ACVNet(1, 100, 100, 1, 3)
 
 vnet = vnet.cuda()
 optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-4, weight_decay=1e-4)
-
-# torch.save(web_num, '/media/admin001/Model/save/%s/fake_label.pth' % (folder))
-# torch.save(warmup_trainloader.dataset.train_label, '/media/admin001/Model/save/%s/real_label.pth' % (folder))
-
-
-# net.load_state_dict(torch.load('/media/admin001/Model/save/%s/net_%d.pth' % (folder, warm_up-1)))
-# net_ema.load_state_dict(torch.load('/media/admin001/Model/save/%s/net_ema_%d.pth' % (folder, warm_up-1)))
-# criterion.soft_labels = torch.load('/media/admin001/Model/save/%s/soft_label_%d.pth' % (folder, warm_up-1))
-
-#  losses, _ = eval_train(net_ema)
-# print('losses:', type(losses), losses.shape)
 
 
 for epoch in range(args.num_epochs):
@@ -367,7 +346,10 @@ for epoch in range(args.num_epochs):
         print('Warmup Net')
         train_CE(warmup_trainloader, net, net_ema, optimizer, epoch)
 
-    else:     
+    else: 
+        if args.noise_mode == 'asym' and epoch > 149:
+            args.ema = 1.
+
         train_imagenet_loader = loader.run('meta', losses)
 
         meta_lr = print_lr(optimizer, epoch)
@@ -376,14 +358,6 @@ for epoch in range(args.num_epochs):
         
     test_acc = test(net, test_loader)  
     test_acc_ema = test(net_ema, test_loader)  
-
-    # torch.save(criterion.soft_labels, '/media/admin001/Model/save/%s/soft_label_%d.pth' % (folder, epoch))
-    # torch.save(my_wl.loss, '/media/admin001/Model/save/%s/epoch_loss_%d.pth' % (folder, epoch))
-    # torch.save(my_wl.weight, '/media/admin001/Model/save/%s/epoch_weight_%d.pth' % (folder, epoch))
-
-    # torch.save(net.state_dict(), '/media/admin001/Model/save/%s/net_%d.pth' % (folder, epoch))
-    # torch.save(net_ema.state_dict(), '/media/admin001/Model/save/%s/net_ema_%d.pth' % (folder, epoch))
-    # torch.save(vnet.state_dict(), '/media/admin001/Model/save/%s/vnet_%d.pth' % (folder, epoch))
         
     print("\n| Test Epoch #%d\t Test Acc: %.2f%% (%.2f%%) \n"%(epoch,test_acc[0],test_acc[1]))  
     test_log.write('Epoch:%d \t Test Acc: %.2f%% (%.2f%%) \n'%(epoch,test_acc[0],test_acc[1]))
