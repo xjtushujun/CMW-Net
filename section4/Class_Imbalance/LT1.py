@@ -162,9 +162,9 @@ def main():
     cudnn.benchmark = True
 
     criterion = nn.CrossEntropyLoss().cuda()
-    model.load_state_dict(torch.load('./acmwn21/model_%d_%f_%s.pth' % (159, args.imb_factor, args.dataset)))
+    # model.load_state_dict(torch.load('./acmwn21/model_%d_%f_%s.pth' % (159, args.imb_factor, args.dataset)))
 
-    for epoch in range(160, args.epochs):
+    for epoch in range(0, args.epochs):
         adjust_learning_rate(optimizer_a, epoch)
 
         if epoch < 160:
@@ -195,11 +195,11 @@ def main():
             train_meta(imbalanced_train_loader, validation_loader, model, vnet, optimizer_a, optimizer_c, epoch)
             # train(imbalanced_train_loader, validation_loader,model, optimizer_a,epoch)
             
-            torch.save(vnet.state_dict(), './acmwn21/vnet_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
-            torch.save(model.state_dict(), './acmwn21/model_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
+            # torch.save(vnet.state_dict(), './acmwn21/vnet_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
+            # torch.save(model.state_dict(), './acmwn21/model_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
 
-            torch.save(my_wl.loss, './acmwn21/epoch_loss_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
-            torch.save(my_wl.weight, './acmwn21/epoch_weight_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
+            # torch.save(my_wl.loss, './acmwn21/epoch_loss_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
+            # torch.save(my_wl.weight, './acmwn21/epoch_weight_%d_%f_%s.pth' % (epoch, args.imb_factor, args.dataset))
 
         prec1, preds, gt_labels = validate(test_loader, model, criterion, epoch)
 

@@ -111,7 +111,7 @@ def _init_fn(worker_id):
     np.random.seed(77 + worker_id)
 
 
-def main(arg_seed, arg_timestamp):
+def main(arg_seed):
     random_seed = arg_seed
     np.random.seed(random_seed)
     random.seed(random_seed)
@@ -130,7 +130,6 @@ def main(arg_seed, arg_timestamp):
 
     weight_decay = 1e-3
     gamma = 0.2
-    current_delta = args.delta
 
     lr = args.lr
     start_epoch = 0
@@ -173,15 +172,13 @@ def main(arg_seed, arg_timestamp):
 
     # print('c:', c)
 
-    # qq = [1, 2, 0, 2, 0, 0, 1, 0, 0, 2]
-    # print(qq)
+    qq = [1, 2, 0, 2, 0, 0, 1, 0, 0, 2]
+    print(qq)
 
-    # mm = [2, 0, 1]
-    # c = []
-    # for i in qq:
-    #     c.append(mm[i])
-
-    c = [0] * num_class
+    mm = [2, 0, 1]
+    c = []
+    for i in qq:
+        c.append(mm[i])
 
     w = [[],[],[]]
     for i in range(3):
@@ -191,7 +188,7 @@ def main(arg_seed, arg_timestamp):
 
     print('w:', w)
 
-    vnet = VNet(1, 100, 100, 1, 1)
+    vnet = VNet(1, 100, 100, 1, 3)
     vnet = nn.DataParallel(vnet)
     vnet = vnet.cuda()
 
@@ -257,10 +254,10 @@ def main(arg_seed, arg_timestamp):
                 cprint('epoch: {}\titerations: {}\tcurrent train accuracy: {:.4f}\ttrain loss:{:.4f}'.format(
                     epoch, iterations, cur_train_acc, cur_train_loss), 'yellow')
 
-        torch.save(net.state_dict(), '/data/animal/acmwn2/net_%s.pth' % epoch)
-        torch.save(vnet.state_dict(), '/data/animal/acmwn2/vnet_%s.pth' % epoch)
-        torch.save(my_wl.loss, '/data/animal/acmwn2/epoch_loss_%s.pth' % epoch)
-        torch.save(my_wl.weight, '/data/animal/acmwn2/epoch_weight_%s.pth' % epoch)
+        torch.save(net.state_dict(), '/data/animal/acmwn1/net_%s.pth' % epoch)
+        torch.save(vnet.state_dict(), '/data/animal/acmwn1/vnet_%s.pth' % epoch)
+        torch.save(my_wl.loss, '/data/animal/acmwn1/epoch_loss_%s.pth' % epoch)
+        torch.save(my_wl.weight, '/data/animal/acmwn1/epoch_weight_%s.pth' % epoch)
 
         train_acc = train_correct / train_total * 100.
 
@@ -371,8 +368,8 @@ def main(arg_seed, arg_timestamp):
 
         train_acc = train_correct / train_total * 100.
 
-        torch.save(my_wl.loss, '/data/animal/acmwn2/epoch_loss_%s.pth' % epoch)
-        torch.save(my_wl.weight, '/data/animal/acmwn2/epoch_weight_%s.pth' % epoch)
+        torch.save(my_wl.loss, '/data/animal/acmwn1/epoch_loss_%s.pth' % epoch)
+        torch.save(my_wl.weight, '/data/animal/acmwn1/epoch_weight_%s.pth' % epoch)
 
         cprint('epoch: {}'.format(epoch), 'yellow')
         cprint('train accuracy: {:.4f}\ntrain loss: {:.4f}'.format(train_acc, train_loss), 'yellow')
@@ -397,27 +394,22 @@ def main(arg_seed, arg_timestamp):
 
         cprint('>> current test accuracy: {:.4f}'.format(test_acc), 'cyan')
 
-        torch.save(net.state_dict(), '/data/animal/acmwn2/net_%s.pth' % epoch)
-        torch.save(vnet.state_dict(), '/data/animal/acmwn2/vnet_%s.pth' % epoch)
+        torch.save(net.state_dict(), '/data/animal/acmwn1/net_%s.pth' % epoch)
+        torch.save(vnet.state_dict(), '/data/animal/acmwn1/vnet_%s.pth' % epoch)
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--gpus', default='0', help='delimited list input of GPUs', type=str)
-    parser.add_argument('--timelog', action='store_false', help='whether to add time stamp to log file name')
-    parser.add_argument("--warm_up", default=40, help="warm-up period", type=int)
-    parser.add_argument("--rollWindow", default=10, help="rolling window to calculate the confidence", type=int)
-    parser.add_argument("--eval_freq", default=2000, help="evaluation frequency (every a few iterations)", type=int)
+    parser.add_argument('--gpus', default='1', help='delimited list input of GPUs', type=str)
     parser.add_argument("--batch", default=128, help="batch size", type=int)
     parser.add_argument("--epoch", default=100, help="total number of epochs", type=int)
     parser.add_argument("--seed", default=77, help="random seed", type=int)
     parser.add_argument("--lr", default=0.1, help="learning rate", type=float)
-    parser.add_argument("--delta", default=0.3, help="delta", type=float)
     parser.add_argument('--alpha', default='1.', type=float)
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpus
 
     seed = args.seed
 
-    main(seed, args.timelog)
+    main(seed)

@@ -36,7 +36,7 @@ nohup python -u cmwn.py --dataset cifar100 --data_path cifar100-python --noise_m
 nohup python -u cmwn.py --dataset cifar100 --data_path cifar100-python --noise_mode sym --r 0.6 >> cifar100_sym_60.log &
 
 # cifar100 sym 80%
-#nohup python -u cmwn.py --dataset cifar100 --data_path cifar100-python --noise_mode sym --r 0.8 >> cifar100_sym_80.log &
+nohup python -u cmwn.py --dataset cifar100 --data_path cifar100-python --noise_mode sym --r 0.8 --alpha 0.1 >> cifar100_sym_80.log &
 
 # cifar10 asym 20%
 nohup python -u cmwn.py --dataset cifar100 --data_path cifar100-python --noise_mode asym --r 0.2 --alpha 0.4 >> cifar100_asym_20.log &

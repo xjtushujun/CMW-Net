@@ -327,18 +327,18 @@ def main():
 
     optimizer = torch.optim.SGD(net.params(), lr=args.lr, weight_decay=args.wd, momentum=0.9)
 
-    if not os.path.exists('./save/mwn_v24/%s_%f' % (args.ds, args.partial_rate)):
-        os.makedirs('./save/mwn_v24/%s_%f' % (args.ds, args.partial_rate))
+    # if not os.path.exists('./save/mwn_v24/%s_%f' % (args.ds, args.partial_rate)):
+    #     os.makedirs('./save/mwn_v24/%s_%f' % (args.ds, args.partial_rate))
 
-    torch.save(train_loader.dataset.train_labels, './save/mwn_v24/%s_%f/real_labels.pth' % (args.ds, args.partial_rate))   
+    # torch.save(train_loader.dataset.train_labels, './save/mwn_v24/%s_%f/real_labels.pth' % (args.ds, args.partial_rate))   
 
     vnet = ACVNet(1, 100, 100, 1, 3).cuda()
     optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-3, weight_decay=1e-4)
 
 
     for epoch in range(0, 45):
-        torch.save(net.state_dict(), './save/mwn_v24/%s_%f/net_%d.pth' % (args.ds, args.partial_rate, epoch))
-        torch.save(net_ema.state_dict(), './save/mwn_v24/%s_%f/ema_net_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(net.state_dict(), './save/mwn_v24/%s_%f/net_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(net_ema.state_dict(), './save/mwn_v24/%s_%f/ema_net_%d.pth' % (args.ds, args.partial_rate, epoch))
         
         print ('training...')
         net.train()
@@ -367,13 +367,13 @@ def main():
 
 
     for epoch in range(45, args.ep):
-        torch.save(net.state_dict(), './save/mwn_v24/%s_%f/net_%d.pth' % (args.ds, args.partial_rate, epoch))
-        torch.save(net_ema.state_dict(), './save/mwn_v24/%s_%f/ema_net_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(net.state_dict(), './save/mwn_v24/%s_%f/net_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(net_ema.state_dict(), './save/mwn_v24/%s_%f/ema_net_%d.pth' % (args.ds, args.partial_rate, epoch))
         
-        torch.save(vnet.state_dict(), './save/mwn_v24/%s_%f/vnet_%d.pth' % (args.ds, args.partial_rate, epoch))
-        torch.save(my_wl.weight, './save/mwn_v24/%s_%f/epoch_weight_%d.pth' % (args.ds, args.partial_rate, epoch))
-        torch.save(my_wl.loss, './save/mwn_v24/%s_%f/epoch_loss_%d.pth' % (args.ds, args.partial_rate, epoch))
-        torch.save(get_label.soft_labels, './save/mwn_v24/%s_%f/soft_labels_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(vnet.state_dict(), './save/mwn_v24/%s_%f/vnet_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(my_wl.weight, './save/mwn_v24/%s_%f/epoch_weight_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(my_wl.loss, './save/mwn_v24/%s_%f/epoch_loss_%d.pth' % (args.ds, args.partial_rate, epoch))
+        # torch.save(get_label.soft_labels, './save/mwn_v24/%s_%f/soft_labels_%d.pth' % (args.ds, args.partial_rate, epoch))
         
         print ('training...')
         # net.train()

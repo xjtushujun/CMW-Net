@@ -339,14 +339,21 @@ vnet = ACVNet(1, 100, 100, 1, 3)
 vnet = vnet.cuda()
 optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-4, weight_decay=1e-4)
 
+if (args.noise_mode == 'sym' and args.dataset == 'cifar100' and args.r == 0.8):
+    scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=5, T_mult=2, eta_min=1e-4)
+    optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-3, weight_decay=1e-4)
+    args.num_epochs = 345
 
 for epoch in range(args.num_epochs):
-    adjust_learning_rate(optimizer, epoch)
+    if not (args.noise_mode == 'sym' and args.dataset == 'cifar100' and args.r == 0.8):
+        adjust_learning_rate(optimizer, epoch)
     if epoch < warm_up:       
         print('Warmup Net')
         train_CE(warmup_trainloader, net, net_ema, optimizer, epoch)
 
     else: 
+        if (args.noise_mode == 'sym' and args.dataset == 'cifar100' and args.r == 0.8):
+            scheduler.step(epoch-45)
         if args.noise_mode == 'asym' and epoch > 149:
             args.ema = 1.
 
