@@ -278,7 +278,7 @@ The main results are shown below:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow" rowspan="2">Datasets</th>
+    <th class="tg-0pky" rowspan="2">Datasets</th>
     <th class="tg-c3ow" rowspan="2">Noise</th>
     <th class="tg-c3ow" colspan="4">Symmetric Noise</th>
     <th class="tg-c3ow" colspan="4">Asymmetric Noise</th>
