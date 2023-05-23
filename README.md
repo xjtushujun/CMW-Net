@@ -63,7 +63,7 @@ The main results are shown below:
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Imbalance factor </td>
+    <td class="tg-0pky" nowrap>Imbalance factor </td>
     <td class="tg-c3ow">200 </td>
     <td class="tg-c3ow">100 </td>
     <td class="tg-c3ow">50 </td>
@@ -78,7 +78,7 @@ The main results are shown below:
     <td class="tg-c3ow">1</td>
   </tr>
   <tr>
-    <td class="tg-0pky">ERM </td>
+    <td class="tg-0pky" nowrap>ERM </td>
     <td class="tg-c3ow">34.32 </td>
     <td class="tg-c3ow">29.64 </td>
     <td class="tg-c3ow">25.19 </td>
@@ -93,7 +93,7 @@ The main results are shown below:
     <td class="tg-c3ow">29.50</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Focal loss</td>
+    <td class="tg-0pky" nowrap>Focal loss</td>
     <td class="tg-c3ow">34.71 </td>
     <td class="tg-c3ow">29.62 </td>
     <td class="tg-c3ow">23.29 </td>
@@ -108,7 +108,7 @@ The main results are shown below:
     <td class="tg-c3ow">28.85</td>
   </tr>
   <tr>
-    <td class="tg-0pky">CB loss</td>
+    <td class="tg-0pky" nowrap>CB loss</td>
     <td class="tg-c3ow">31.11 </td>
     <td class="tg-c3ow">27.63 </td>
     <td class="tg-c3ow">21.95 </td>
@@ -123,7 +123,7 @@ The main results are shown below:
     <td class="tg-c3ow">29.37</td>
   </tr>
   <tr>
-    <td class="tg-0pky">LDAM loss</td>
+    <td class="tg-0pky" nowrap>LDAM loss</td>
     <td class="tg-c3ow">- </td>
     <td class="tg-c3ow">26.65 </td>
     <td class="tg-c3ow">- </td>
@@ -138,7 +138,7 @@ The main results are shown below:
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">L2RW</td>
+    <td class="tg-0pky" nowrap>L2RW</td>
     <td class="tg-c3ow">33.49 </td>
     <td class="tg-c3ow">25.84 </td>
     <td class="tg-c3ow">21.07 </td>
@@ -153,7 +153,7 @@ The main results are shown below:
     <td class="tg-c3ow">35.89</td>
   </tr>
   <tr>
-    <td class="tg-0pky">MW-Net </td>
+    <td class="tg-0pky" nowrap>MW-Net </td>
     <td class="tg-c3ow">32.80 </td>
     <td class="tg-c3ow">26.43 </td>
     <td class="tg-c3ow">20.90 </td>
@@ -168,7 +168,7 @@ The main results are shown below:
     <td class="tg-c3ow">29.90</td>
   </tr>
   <tr>
-    <td class="tg-0pky">MCW with CE loss</td>
+    <td class="tg-0pky" nowrap>MCW with CE loss</td>
     <td class="tg-c3ow">29.34 </td>
     <td class="tg-c3ow">23.59 </td>
     <td class="tg-c3ow">19.49 </td>
@@ -183,7 +183,7 @@ The main results are shown below:
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">CMW-Net with CE loss </td>
+    <td class="tg-0pky" nowrap>CMW-Net with CE loss </td>
     <td class="tg-7btt">27.80 </td>
     <td class="tg-7btt">21.15 </td>
     <td class="tg-7btt">17.26 </td>
@@ -198,7 +198,7 @@ The main results are shown below:
     <td class="tg-c3ow">30.81</td>
   </tr>
   <tr>
-    <td class="tg-0pky">MCW with LDAM loss</td>
+    <td class="tg-0pky" nowrap>MCW with LDAM loss</td>
     <td class="tg-7btt">25.10 </td>
     <td class="tg-c3ow">20.00 </td>
     <td class="tg-c3ow">17.77 </td>
@@ -213,7 +213,7 @@ The main results are shown below:
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">CMW-Net with LDAM loss </td>
+    <td class="tg-0pky" nowrap>CMW-Net with LDAM loss </td>
     <td class="tg-c3ow">25.57 </td>
     <td class="tg-7btt">19.95 </td>
     <td class="tg-7btt">17.66 </td>
@@ -228,7 +228,7 @@ The main results are shown below:
     <td class="tg-7btt">29.19</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SADE</td>
+    <td class="tg-0pky" nowrap>SADE</td>
     <td class="tg-c3ow">19.37 </td>
     <td class="tg-c3ow">16.78 </td>
     <td class="tg-c3ow">14.81 </td>
@@ -243,7 +243,7 @@ The main results are shown below:
     <td class="tg-c3ow">28.08</td>
   </tr>
   <tr>
-    <td class="tg-0pky">CMW-Net with SADE </td>
+    <td class="tg-0pky" nowrap>CMW-Net with SADE </td>
     <td class="tg-7btt">19.11 </td>
     <td class="tg-7btt">16.04 </td>
     <td class="tg-7btt">13.54 </td>
@@ -298,7 +298,7 @@ The main results are shown below:
   <tbody>
     <tr>
       <td class="tg-0pky" rowspan="9">CIFAR-10</td>
-      <td class="tg-c3ow">ERM </td>
+      <td class="tg-c3ow" nowrap>ERM </td>
       <td class="tg-c3ow" nowrap>86.98 ± 0.12 </td>
       <td class="tg-c3ow" nowrap>77.52 ± 0.41 </td>
       <td class="tg-c3ow" nowrap>73.63 ± 0.85 </td>
@@ -309,7 +309,7 @@ The main results are shown below:
       <td class="tg-c3ow" nowrap>55.20 ± 0.28</td>
     </tr>
     <tr>
-      <td class="tg-0pky">Forward</td>
+      <td class="tg-0pky" nowrap>Forward</td>
       <td class="tg-c3ow">87.99 ± 0.36 </td>
       <td class="tg-c3ow">83.25 ± 0.38 </td>
       <td class="tg-c3ow">74.96 ± 0.65 </td>
@@ -320,7 +320,7 @@ The main results are shown below:
       <td class="tg-c3ow">81.07 ± 1.92</td>
     </tr>
     <tr>
-      <td class="tg-0pky">GCE</td>
+      <td class="tg-0pky" nowrap>GCE</td>
       <td class="tg-c3ow">89.99 ± 0.16 </td>
       <td class="tg-c3ow">87.31 ± 0.53 </td>
       <td class="tg-c3ow">82.15 ± 0.47 </td>
@@ -331,7 +331,7 @@ The main results are shown below:
       <td class="tg-c3ow">57.46 ± 0.31</td>
     </tr>
     <tr>
-      <td class="tg-0pky">M-correction</td>
+      <td class="tg-0pky" nowrap>M-correction</td>
       <td class="tg-c3ow">93.80 ± 0.23 </td>
       <td class="tg-c3ow">92.53 ± 0.11 </td>
       <td class="tg-c3ow">90.30 ± 0.34 </td>
@@ -342,7 +342,7 @@ The main results are shown below:
       <td class="tg-c3ow">67.78 ± 1.22</td>
     </tr>
     <tr>
-      <td class="tg-0pky">DivideMix</td>
+      <td class="tg-0pky" nowrap>DivideMix</td>
       <td class="tg-c3ow">95.70 ± 0.31 </td>
       <td class="tg-c3ow">95.00 ± 0.17 </td>
       <td class="tg-c3ow">94.23 ± 0.23 </td>
@@ -353,7 +353,7 @@ The main results are shown below:
       <td class="tg-c3ow">59.23 ± 0.38</td>
     </tr>
     <tr>
-      <td class="tg-0pky">L2RW</td>
+      <td class="tg-0pky" nowrap>L2RW</td>
       <td class="tg-c3ow">89.45 ± 0.62 </td>
       <td class="tg-c3ow">87.18 ± 0.84 </td>
       <td class="tg-c3ow">81.57 ± 0.66 </td>
@@ -364,7 +364,7 @@ The main results are shown below:
       <td class="tg-c3ow">85.17 ± 0.31</td>
     </tr>
     <tr>
-      <td class="tg-0pky">MW-Net</td>
+      <td class="tg-0pky" nowrap>MW-Net</td>
       <td class="tg-c3ow">90.46 ± 0.52 </td>
       <td class="tg-c3ow">86.53 ± 0.57 </td>
       <td class="tg-c3ow">82.98 ± 0.34 </td>
@@ -375,7 +375,7 @@ The main results are shown below:
       <td class="tg-c3ow">58.29 ± 1.33</td>
     </tr>
     <tr>
-      <td class="tg-0pky">CMW-Net </td>
+      <td class="tg-0pky" nowrap>CMW-Net </td>
       <td class="tg-c3ow">91.09 ± 0.54 </td>
       <td class="tg-c3ow">86.91 ± 0.37 </td>
       <td class="tg-c3ow">83.33 ± 0.55 </td>
@@ -386,7 +386,7 @@ The main results are shown below:
       <td class="tg-c3ow">87.50 ± 0.26</td>
     </tr>
     <tr>
-      <td class="tg-0pky">CMW-Net-SL </td>
+      <td class="tg-0pky" nowrap>CMW-Net-SL </td>
       <td class="tg-c3ow">96.20 ± 0.33 </td>
       <td class="tg-c3ow">95.29 ± 0.14 </td>
       <td class="tg-c3ow">94.51 ± 0.32 </td>
@@ -409,7 +409,7 @@ The main results are shown below:
       <td class="tg-c3ow">12.46 ± 0.43</td>
     </tr>
     <tr>
-      <td class="tg-0pky">Forward</td>
+      <td class="tg-0pky" nowrap>Forward</td>
       <td class="tg-c3ow">63.71 ± 0.49 </td>
       <td class="tg-c3ow">49.34 ± 0.60 </td>
       <td class="tg-c3ow">37.90 ± 0.76 </td>
@@ -420,7 +420,7 @@ The main results are shown below:
       <td class="tg-c3ow">15.84 ± 0.62</td>
     </tr>
     <tr>
-      <td class="tg-0pky">GCE</td>
+      <td class="tg-0pky" nowrap>GCE</td>
       <td class="tg-c3ow">68.02 ± 1.05 </td>
       <td class="tg-c3ow">64.18 ± 0.30 </td>
       <td class="tg-c3ow">54.46 ± 0.31 </td>
@@ -431,7 +431,7 @@ The main results are shown below:
       <td class="tg-c3ow">15.82 ± 0.63</td>
     </tr>
     <tr>
-      <td class="tg-0pky">M-correction</td>
+      <td class="tg-0pky" nowrap>M-correction</td>
       <td class="tg-c3ow">73.90 ± 0.14 </td>
       <td class="tg-c3ow">70.10 ± 0.14 </td>
       <td class="tg-c3ow">59.50 ± 0.35 </td>
@@ -442,7 +442,7 @@ The main results are shown below:
       <td class="tg-c3ow">16.06 ± 0.33</td>
     </tr>
     <tr>
-      <td class="tg-0pky">DivideMix</td>
+      <td class="tg-0pky" nowrap>DivideMix</td>
       <td class="tg-c3ow">76.90 ± 0.21 </td>
       <td class="tg-c3ow">75.20 ± 0.12 </td>
       <td class="tg-c3ow">72.00 ± 0.33 </td>
@@ -453,7 +453,7 @@ The main results are shown below:
       <td class="tg-c3ow">16.98 ± 0.40</td>
     </tr>
     <tr>
-      <td class="tg-0pky">L2RW</td>
+      <td class="tg-0pky" nowrap>L2RW</td>
       <td class="tg-c3ow">65.32 ± 0.42 </td>
       <td class="tg-c3ow">55.75 ± 0.81 </td>
       <td class="tg-c3ow">41.16 ± 0.85 </td>
@@ -464,7 +464,7 @@ The main results are shown below:
       <td class="tg-c3ow">12.40 ± 0.61</td>
     </tr>
     <tr>
-      <td class="tg-0pky">MW-Net</td>
+      <td class="tg-0pky" nowrap>MW-Net</td>
       <td class="tg-c3ow">69.93 ± 0.40 </td>
       <td class="tg-c3ow">65.29 ± 0.43 </td>
       <td class="tg-c3ow">55.59 ± 1.07 </td>
@@ -475,7 +475,7 @@ The main results are shown below:
       <td class="tg-c3ow">17.05 ± 0.52</td>
     </tr>
     <tr>
-      <td class="tg-0pky">CMW-Net </td>
+      <td class="tg-0pky" nowrap>CMW-Net </td>
       <td class="tg-c3ow">70.11 ± 0.19 </td>
       <td class="tg-c3ow">65.84 ± 0.50 </td>
       <td class="tg-c3ow">56.93 ± 0.38 </td>
@@ -486,7 +486,7 @@ The main results are shown below:
       <td class="tg-c3ow">17.41 ± 0.16</td>
     </tr>
     <tr>
-      <td class="tg-0pky">CMW-Net-SL </td>
+      <td class="tg-0pky" nowrap>CMW-Net-SL </td>
       <td class="tg-c3ow">77.84 ± 0.12 </td>
       <td class="tg-c3ow">76.25 ± 0.67 </td>
       <td class="tg-c3ow">72.61 ± 0.92 </td>
@@ -666,139 +666,139 @@ The main results are shown below:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-cly1">Datasets </th>
-    <th class="tg-cly1">Noise </th>
-    <th class="tg-cly1">ERM </th>
-    <th class="tg-cly1">LRT</th>
-    <th class="tg-cly1">GCE</th>
-    <th class="tg-cly1">MW-Net</th>
-    <th class="tg-cly1">PLC</th>
-    <th class="tg-cly1">CMW-Net </th>
-    <th class="tg-cly1">CMW-Net-SL</th>
+    <th class="tg-cly1" nowrap>Datasets </th>
+    <th class="tg-cly1" nowrap>Noise </th>
+    <th class="tg-cly1" nowrap>ERM </th>
+    <th class="tg-cly1" nowrap>LRT</th>
+    <th class="tg-cly1" nowrap>GCE</th>
+    <th class="tg-cly1" nowrap>MW-Net</th>
+    <th class="tg-cly1" nowrap>PLC</th>
+    <th class="tg-cly1" nowrap>CMW-Net </th>
+    <th class="tg-cly1" nowrap>CMW-Net-SL</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-cly1" rowspan="6">CIFAR-10</td>
-    <td class="tg-cly1">Type-I (35%) </td>
-    <td class="tg-cly1">78.11 ± 0.74 </td>
-    <td class="tg-cly1">80.98 ± 0.80 </td>
-    <td class="tg-cly1">80.65 ± 0.39 </td>
-    <td class="tg-cly1">82.20 ± 0.40 </td>
-    <td class="tg-cly1">82.80 ± 0.27 </td>
-    <td class="tg-cly1">82.27 ± 0.33 </td>
-    <td class="tg-cly1">84.23 ± 0.17</td>
+    <td class="tg-cly1" nowrap>Type-I (35%) </td>
+    <td class="tg-cly1" nowrap>78.11 ± 0.74 </td>
+    <td class="tg-cly1" nowrap>80.98 ± 0.80 </td>
+    <td class="tg-cly1" nowrap>80.65 ± 0.39 </td>
+    <td class="tg-cly1" nowrap>82.20 ± 0.40 </td>
+    <td class="tg-cly1" nowrap>82.80 ± 0.27 </td>
+    <td class="tg-cly1" nowrap>82.27 ± 0.33 </td>
+    <td class="tg-cly1" nowrap>84.23 ± 0.17</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-I (70%) </td>
-    <td class="tg-cly1">41.98 ± 1.96 </td>
-    <td class="tg-cly1">41.52 ± 4.53 </td>
-    <td class="tg-cly1">36.52 ± 1.62 </td>
-    <td class="tg-cly1">38.85 ± 0.67 </td>
-    <td class="tg-cly1">42.74 ± 2.14 </td>
-    <td class="tg-cly1">42.23 ± 0.69 </td>
-    <td class="tg-cly1">44.19 ± 0.69</td>
+    <td class="tg-cly1" nowrap>Type-I (70%) </td>
+    <td class="tg-cly1" nowrap>41.98 ± 1.96 </td>
+    <td class="tg-cly1" nowrap>41.52 ± 4.53 </td>
+    <td class="tg-cly1" nowrap>36.52 ± 1.62 </td>
+    <td class="tg-cly1" nowrap>38.85 ± 0.67 </td>
+    <td class="tg-cly1" nowrap>42.74 ± 2.14 </td>
+    <td class="tg-cly1" nowrap>42.23 ± 0.69 </td>
+    <td class="tg-cly1" nowrap>44.19 ± 0.69</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-II (35%) </td>
-    <td class="tg-cly1">76.65 ± 0.57 </td>
-    <td class="tg-cly1">80.74 ± 0.25 </td>
-    <td class="tg-cly1">77.60 ± 0.88 </td>
-    <td class="tg-cly1">81.28 ± 0.56 </td>
-    <td class="tg-cly1">81.54 ± 0.47 </td>
-    <td class="tg-cly1">81.69 ± 0.57 </td>
-    <td class="tg-cly1">83.12 ± 0.40</td>
+    <td class="tg-cly1" nowrap>Type-II (35%) </td>
+    <td class="tg-cly1" nowrap>76.65 ± 0.57 </td>
+    <td class="tg-cly1" nowrap>80.74 ± 0.25 </td>
+    <td class="tg-cly1" nowrap>77.60 ± 0.88 </td>
+    <td class="tg-cly1" nowrap>81.28 ± 0.56 </td>
+    <td class="tg-cly1" nowrap>81.54 ± 0.47 </td>
+    <td class="tg-cly1" nowrap>81.69 ± 0.57 </td>
+    <td class="tg-cly1" nowrap>83.12 ± 0.40</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-II (70%) </td>
-    <td class="tg-cly1">45.57 ± 1.12 </td>
-    <td class="tg-cly1">81.08 ± 0.35 </td>
-    <td class="tg-cly1">40.30 ± 1.46 </td>
-    <td class="tg-cly1">42.15 ± 1.07 </td>
-    <td class="tg-cly1">46.04 ± 2.20 </td>
-    <td class="tg-cly1">46.30 ± 0.77 </td>
-    <td class="tg-cly1">48.26 ± 0.88</td>
+    <td class="tg-cly1" nowrap>Type-II (70%) </td>
+    <td class="tg-cly1" nowrap>45.57 ± 1.12 </td>
+    <td class="tg-cly1" nowrap>81.08 ± 0.35 </td>
+    <td class="tg-cly1" nowrap>40.30 ± 1.46 </td>
+    <td class="tg-cly1" nowrap>42.15 ± 1.07 </td>
+    <td class="tg-cly1" nowrap>46.04 ± 2.20 </td>
+    <td class="tg-cly1" nowrap>46.30 ± 0.77 </td>
+    <td class="tg-cly1" nowrap>48.26 ± 0.88</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-III (35%) </td>
-    <td class="tg-cly1">76.89 ± 0.79 </td>
-    <td class="tg-cly1">76.89 ± 0.79 </td>
-    <td class="tg-cly1">79.18 ± 0.61 </td>
-    <td class="tg-cly1">81.57 ± 0.73 </td>
-    <td class="tg-cly1">81.50 ± 0.50 </td>
-    <td class="tg-cly1">81.52 ± 0.38 </td>
-    <td class="tg-cly1">83.10 ± 0.34</td>
+    <td class="tg-cly1" nowrap>Type-III (35%) </td>
+    <td class="tg-cly1" nowrap>76.89 ± 0.79 </td>
+    <td class="tg-cly1" nowrap>76.89 ± 0.79 </td>
+    <td class="tg-cly1" nowrap>79.18 ± 0.61 </td>
+    <td class="tg-cly1" nowrap>81.57 ± 0.73 </td>
+    <td class="tg-cly1" nowrap>81.50 ± 0.50 </td>
+    <td class="tg-cly1" nowrap>81.52 ± 0.38 </td>
+    <td class="tg-cly1" nowrap>83.10 ± 0.34</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-III (70%) </td>
-    <td class="tg-cly1">43.32 ± 1.00 </td>
-    <td class="tg-cly1">44.47 ± 1.23 </td>
-    <td class="tg-cly1">37.10 ± 0.59 </td>
-    <td class="tg-cly1">42.43 ± 1.27 </td>
-    <td class="tg-cly1">45.05 ± 1.13 </td>
-    <td class="tg-cly1">43.76 ± 0.96 </td>
-    <td class="tg-cly1">45.15 ± 0.91</td>
+    <td class="tg-cly1" nowrap>Type-III (70%) </td>
+    <td class="tg-cly1" nowrap>43.32 ± 1.00 </td>
+    <td class="tg-cly1" nowrap>44.47 ± 1.23 </td>
+    <td class="tg-cly1" nowrap>37.10 ± 0.59 </td>
+    <td class="tg-cly1" nowrap>42.43 ± 1.27 </td>
+    <td class="tg-cly1" nowrap>45.05 ± 1.13 </td>
+    <td class="tg-cly1" nowrap>43.76 ± 0.96 </td>
+    <td class="tg-cly1" nowrap>45.15 ± 0.91</td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="6">CIFAR-100</td>
-    <td class="tg-cly1">Type-I (35%) </td>
-    <td class="tg-cly1">57.68 ± 0.29 </td>
-    <td class="tg-cly1">56.74 ± 0.34 </td>
-    <td class="tg-cly1">58.37 ± 0.18 </td>
-    <td class="tg-cly1">62.10 ± 0.50 </td>
-    <td class="tg-cly1">60.01 ± 0.43 </td>
-    <td class="tg-cly1">62.43 ± 0.38 </td>
-    <td class="tg-cly1">64.01 ± 0.11</td>
+    <td class="tg-cly1" nowrap>Type-I (35%) </td>
+    <td class="tg-cly1" nowrap>57.68 ± 0.29 </td>
+    <td class="tg-cly1" nowrap>56.74 ± 0.34 </td>
+    <td class="tg-cly1" nowrap>58.37 ± 0.18 </td>
+    <td class="tg-cly1" nowrap>62.10 ± 0.50 </td>
+    <td class="tg-cly1" nowrap>60.01 ± 0.43 </td>
+    <td class="tg-cly1" nowrap>62.43 ± 0.38 </td>
+    <td class="tg-cly1" nowrap>64.01 ± 0.11</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-I (70%) </td>
-    <td class="tg-cly1">39.32 ± 0.43 </td>
-    <td class="tg-cly1">45.29 ± 0.43 </td>
-    <td class="tg-cly1">40.01 ± 0.71 </td>
-    <td class="tg-cly1">44.71 ± 0.49 </td>
-    <td class="tg-cly1">45.92 ± 0.61 </td>
-    <td class="tg-cly1">46.68 ± 0.64 </td>
-    <td class="tg-cly1">47.62 ± 0.44</td>
+    <td class="tg-cly1" nowrap>Type-I (70%) </td>
+    <td class="tg-cly1" nowrap>39.32 ± 0.43 </td>
+    <td class="tg-cly1" nowrap>45.29 ± 0.43 </td>
+    <td class="tg-cly1" nowrap>40.01 ± 0.71 </td>
+    <td class="tg-cly1" nowrap>44.71 ± 0.49 </td>
+    <td class="tg-cly1" nowrap>45.92 ± 0.61 </td>
+    <td class="tg-cly1" nowrap>46.68 ± 0.64 </td>
+    <td class="tg-cly1" nowrap>47.62 ± 0.44</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-II (35%) </td>
-    <td class="tg-cly1">57.83 ± 0.25 </td>
-    <td class="tg-cly1">57.25 ± 0.68 </td>
-    <td class="tg-cly1">58.11 ± 1.05 </td>
-    <td class="tg-cly1">63.78 ± 0.24 </td>
-    <td class="tg-cly1">63.68 ± 0.29 </td>
-    <td class="tg-cly1">64.08 ± 0.26 </td>
-    <td class="tg-cly1">64.13 ± 0.19</td>
+    <td class="tg-cly1" nowrap>Type-II (35%) </td>
+    <td class="tg-cly1" nowrap>57.83 ± 0.25 </td>
+    <td class="tg-cly1" nowrap>57.25 ± 0.68 </td>
+    <td class="tg-cly1" nowrap>58.11 ± 1.05 </td>
+    <td class="tg-cly1" nowrap>63.78 ± 0.24 </td>
+    <td class="tg-cly1" nowrap>63.68 ± 0.29 </td>
+    <td class="tg-cly1" nowrap>64.08 ± 0.26 </td>
+    <td class="tg-cly1" nowrap>64.13 ± 0.19</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-II (70%) </td>
-    <td class="tg-cly1">39.30 ± 0.32 </td>
-    <td class="tg-cly1">43.71 ± 0.51 </td>
-    <td class="tg-cly1">37.75 ± 0.46 </td>
-    <td class="tg-cly1">44.61 ± 0.41 </td>
-    <td class="tg-cly1">45.03 ± 0.50 </td>
-    <td class="tg-cly1">50.01 ± 0.51 </td>
-    <td class="tg-cly1">51.99 ± 0.35</td>
+    <td class="tg-cly1" nowrap>Type-II (70%) </td>
+    <td class="tg-cly1" nowrap>39.30 ± 0.32 </td>
+    <td class="tg-cly1" nowrap>43.71 ± 0.51 </td>
+    <td class="tg-cly1" nowrap>37.75 ± 0.46 </td>
+    <td class="tg-cly1" nowrap>44.61 ± 0.41 </td>
+    <td class="tg-cly1" nowrap>45.03 ± 0.50 </td>
+    <td class="tg-cly1" nowrap>50.01 ± 0.51 </td>
+    <td class="tg-cly1" nowrap>51.99 ± 0.35</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-III (35%) </td>
-    <td class="tg-cly1">56.07 ± 0.79 </td>
-    <td class="tg-cly1">56.57 ± 0.30 </td>
-    <td class="tg-cly1">57.51 ± 1.16 </td>
-    <td class="tg-cly1">62.53 ± 0.33 </td>
-    <td class="tg-cly1">63.68 ± 0.29 </td>
-    <td class="tg-cly1">63.21 ± 0.23 </td>
-    <td class="tg-cly1">64.47 ± 0.15</td>
+    <td class="tg-cly1" nowrap>Type-III (35%) </td>
+    <td class="tg-cly1" nowrap>56.07 ± 0.79 </td>
+    <td class="tg-cly1" nowrap>56.57 ± 0.30 </td>
+    <td class="tg-cly1" nowrap>57.51 ± 1.16 </td>
+    <td class="tg-cly1" nowrap>62.53 ± 0.33 </td>
+    <td class="tg-cly1" nowrap>63.68 ± 0.29 </td>
+    <td class="tg-cly1" nowrap>63.21 ± 0.23 </td>
+    <td class="tg-cly1" nowrap>64.47 ± 0.15</td>
   </tr>
   <tr>
-    <td class="tg-cly1">Type-III (70%) </td>
-    <td class="tg-cly1">40.01 ± 0.18 </td>
-    <td class="tg-cly1">44.41 ± 0.19 </td>
-    <td class="tg-cly1">40.53 ± 0.60 </td>
-    <td class="tg-cly1">45.17 ± 0.77 </td>
-    <td class="tg-cly1">44.45 ± 0.62 </td>
-    <td class="tg-cly1">47.38 ± 0.65 </td>
-    <td class="tg-cly1">48.78 ± 0.62</td>
+    <td class="tg-cly1" nowrap>Type-III (70%) </td>
+    <td class="tg-cly1" nowrap>40.01 ± 0.18 </td>
+    <td class="tg-cly1" nowrap>44.41 ± 0.19 </td>
+    <td class="tg-cly1" nowrap>40.53 ± 0.60 </td>
+    <td class="tg-cly1" nowrap>45.17 ± 0.77 </td>
+    <td class="tg-cly1" nowrap>44.45 ± 0.62 </td>
+    <td class="tg-cly1" nowrap>47.38 ± 0.65 </td>
+    <td class="tg-cly1" nowrap>48.78 ± 0.62</td>
   </tr>
 </tbody>
 </table>
@@ -812,139 +812,139 @@ The main results are shown below:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-nrix">Datasets </th>
-    <th class="tg-nrix">Noise </th>
-    <th class="tg-nrix">ERM </th>
-    <th class="tg-nrix">LRT</th>
-    <th class="tg-nrix">GCE</th>
-    <th class="tg-nrix">MW-Net</th>
-    <th class="tg-nrix">PLC</th>
-    <th class="tg-nrix">CMW-Net </th>
-    <th class="tg-nrix">CMW-Net-SL</th>
+    <th class="tg-nrix" nowrap>Datasets </th>
+    <th class="tg-nrix" nowrap>Noise </th>
+    <th class="tg-nrix" nowrap>ERM </th>
+    <th class="tg-nrix" nowrap>LRT</th>
+    <th class="tg-nrix" nowrap>GCE</th>
+    <th class="tg-nrix" nowrap>MW-Net</th>
+    <th class="tg-nrix" nowrap>PLC</th>
+    <th class="tg-nrix" nowrap>CMW-Net </th>
+    <th class="tg-nrix" nowrap>CMW-Net-SL</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-nrix" rowspan="6">CIFAR-10</td>
-    <td class="tg-nrix">Type-I + Symmetric </td>
-    <td class="tg-nrix">75.26 ± 0.32 </td>
-    <td class="tg-nrix">75.97 ± 0.27 </td>
-    <td class="tg-nrix">78.08 ± 0.66 </td>
-    <td class="tg-nrix">76.39 ± 0.42 </td>
-    <td class="tg-nrix">79.04 ± 0.50 </td>
-    <td class="tg-nrix">78.42 ± 0.47 </td>
-    <td class="tg-nrix">82.00 ± 0.36</td>
+    <td class="tg-nrix" nowrap>Type-I + Symmetric </td>
+    <td class="tg-nrix" nowrap>75.26 ± 0.32 </td>
+    <td class="tg-nrix" nowrap>75.97 ± 0.27 </td>
+    <td class="tg-nrix" nowrap>78.08 ± 0.66 </td>
+    <td class="tg-nrix" nowrap>76.39 ± 0.42 </td>
+    <td class="tg-nrix" nowrap>79.04 ± 0.50 </td>
+    <td class="tg-nrix" nowrap>78.42 ± 0.47 </td>
+    <td class="tg-nrix" nowrap>82.00 ± 0.36</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-I + Asymmetric </td>
-    <td class="tg-nrix">75.21 ± 0.64 </td>
-    <td class="tg-nrix">76.96 ± 0.45 </td>
-    <td class="tg-nrix">76.91 ± 0.56 </td>
-    <td class="tg-nrix">76.54 ± 0.56 </td>
-    <td class="tg-nrix">78.31 ± 0.41 </td>
-    <td class="tg-nrix">77.14 ± 0.38 </td>
-    <td class="tg-nrix">80.69 ± 0.47</td>
+    <td class="tg-nrix" nowrap>Type-I + Asymmetric </td>
+    <td class="tg-nrix" nowrap>75.21 ± 0.64 </td>
+    <td class="tg-nrix" nowrap>76.96 ± 0.45 </td>
+    <td class="tg-nrix" nowrap>76.91 ± 0.56 </td>
+    <td class="tg-nrix" nowrap>76.54 ± 0.56 </td>
+    <td class="tg-nrix" nowrap>78.31 ± 0.41 </td>
+    <td class="tg-nrix" nowrap>77.14 ± 0.38 </td>
+    <td class="tg-nrix" nowrap>80.69 ± 0.47</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-II + Symmetric </td>
-    <td class="tg-nrix">74.92 ± 0.63 </td>
-    <td class="tg-nrix">75.94 ± 0.58 </td>
-    <td class="tg-nrix">75.69 ± 0.21 </td>
-    <td class="tg-nrix">76.57 ± 0.81 </td>
-    <td class="tg-nrix">80.08 ± 0.37 </td>
-    <td class="tg-nrix">76.77 ± 0.63 </td>
-    <td class="tg-nrix">80.96 ± 0.23</td>
+    <td class="tg-nrix" nowrap>Type-II + Symmetric </td>
+    <td class="tg-nrix" nowrap>74.92 ± 0.63 </td>
+    <td class="tg-nrix" nowrap>75.94 ± 0.58 </td>
+    <td class="tg-nrix" nowrap>75.69 ± 0.21 </td>
+    <td class="tg-nrix" nowrap>76.57 ± 0.81 </td>
+    <td class="tg-nrix" nowrap>80.08 ± 0.37 </td>
+    <td class="tg-nrix" nowrap>76.77 ± 0.63 </td>
+    <td class="tg-nrix" nowrap>80.96 ± 0.23</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-II + Asymmetric </td>
-    <td class="tg-nrix">74.28 ± 0.39 </td>
-    <td class="tg-nrix">77.03 ± 0.62 </td>
-    <td class="tg-nrix">75.30 ± 0.81 </td>
-    <td class="tg-nrix">75.35 ± 0.40 </td>
-    <td class="tg-nrix">77.63 ± 0.30 </td>
-    <td class="tg-nrix">77.08 ± 0.52 </td>
-    <td class="tg-nrix">80.94 ± 0.14</td>
+    <td class="tg-nrix" nowrap>Type-II + Asymmetric </td>
+    <td class="tg-nrix" nowrap>74.28 ± 0.39 </td>
+    <td class="tg-nrix" nowrap>77.03 ± 0.62 </td>
+    <td class="tg-nrix" nowrap>75.30 ± 0.81 </td>
+    <td class="tg-nrix" nowrap>75.35 ± 0.40 </td>
+    <td class="tg-nrix" nowrap>77.63 ± 0.30 </td>
+    <td class="tg-nrix" nowrap>77.08 ± 0.52 </td>
+    <td class="tg-nrix" nowrap>80.94 ± 0.14</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-III + Symmetric </td>
-    <td class="tg-nrix">74.00 ± 0.38 </td>
-    <td class="tg-nrix">75.66 ± 0.57 </td>
-    <td class="tg-nrix">77.00 ± 0.12 </td>
-    <td class="tg-nrix">76.28 ± 0.82 </td>
-    <td class="tg-nrix">80.06 ± 0.47 </td>
-    <td class="tg-nrix">77.16 ± 0.30 </td>
-    <td class="tg-nrix">81.58 ± 0.55</td>
+    <td class="tg-nrix" nowrap>Type-III + Symmetric </td>
+    <td class="tg-nrix" nowrap>74.00 ± 0.38 </td>
+    <td class="tg-nrix" nowrap>75.66 ± 0.57 </td>
+    <td class="tg-nrix" nowrap>77.00 ± 0.12 </td>
+    <td class="tg-nrix" nowrap>76.28 ± 0.82 </td>
+    <td class="tg-nrix" nowrap>80.06 ± 0.47 </td>
+    <td class="tg-nrix" nowrap>77.16 ± 0.30 </td>
+    <td class="tg-nrix" nowrap>81.58 ± 0.55</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-III + Asymmetric </td>
-    <td class="tg-nrix">75.31 ± 0.34 </td>
-    <td class="tg-nrix">77.19 ± 0.74 </td>
-    <td class="tg-nrix">75.70 ± 0.91 </td>
-    <td class="tg-nrix">75.82 ± 0.77 </td>
-    <td class="tg-nrix">77.54 ± 0.70 </td>
-    <td class="tg-nrix">76.49 ± 0.88 </td>
-    <td class="tg-nrix">80.48 ± 0.48</td>
+    <td class="tg-nrix" nowrap>Type-III + Asymmetric </td>
+    <td class="tg-nrix" nowrap>75.31 ± 0.34 </td>
+    <td class="tg-nrix" nowrap>77.19 ± 0.74 </td>
+    <td class="tg-nrix" nowrap>75.70 ± 0.91 </td>
+    <td class="tg-nrix" nowrap>75.82 ± 0.77 </td>
+    <td class="tg-nrix" nowrap>77.54 ± 0.70 </td>
+    <td class="tg-nrix" nowrap>76.49 ± 0.88 </td>
+    <td class="tg-nrix" nowrap>80.48 ± 0.48</td>
   </tr>
   <tr>
     <td class="tg-nrix" rowspan="6">CIFAR-100</td>
-    <td class="tg-nrix">Type-I + Symmetric </td>
-    <td class="tg-nrix">48.86 ± 0.56 </td>
-    <td class="tg-nrix">45.66 ± 1.60 </td>
-    <td class="tg-nrix">52.90 ± 0.53 </td>
-    <td class="tg-nrix">57.70 ± 0.32 </td>
-    <td class="tg-nrix">60.09 ± 0.15 </td>
-    <td class="tg-nrix">59.17 ± 0.42 </td>
-    <td class="tg-nrix">60.87 ± 0.56</td>
+    <td class="tg-nrix" nowrap>Type-I + Symmetric </td>
+    <td class="tg-nrix" nowrap>48.86 ± 0.56 </td>
+    <td class="tg-nrix" nowrap>45.66 ± 1.60 </td>
+    <td class="tg-nrix" nowrap>52.90 ± 0.53 </td>
+    <td class="tg-nrix" nowrap>57.70 ± 0.32 </td>
+    <td class="tg-nrix" nowrap>60.09 ± 0.15 </td>
+    <td class="tg-nrix" nowrap>59.17 ± 0.42 </td>
+    <td class="tg-nrix" nowrap>60.87 ± 0.56</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-I + Asymmetric </td>
-    <td class="tg-nrix">45.85 ± 0.93 </td>
-    <td class="tg-nrix">52.04 ± 0.15 </td>
-    <td class="tg-nrix">52.69 ± 1.14 </td>
-    <td class="tg-nrix">56.61 ± 0.71 </td>
-    <td class="tg-nrix">56.40 ± 0.34 </td>
-    <td class="tg-nrix">57.42 ± 0.81 </td>
-    <td class="tg-nrix">61.35 ± 0.52</td>
+    <td class="tg-nrix" nowrap>Type-I + Asymmetric </td>
+    <td class="tg-nrix" nowrap>45.85 ± 0.93 </td>
+    <td class="tg-nrix" nowrap>52.04 ± 0.15 </td>
+    <td class="tg-nrix" nowrap>52.69 ± 1.14 </td>
+    <td class="tg-nrix" nowrap>56.61 ± 0.71 </td>
+    <td class="tg-nrix" nowrap>56.40 ± 0.34 </td>
+    <td class="tg-nrix" nowrap>57.42 ± 0.81 </td>
+    <td class="tg-nrix" nowrap>61.35 ± 0.52</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-II + Symmetric </td>
-    <td class="tg-nrix">49.32 ± 0.36 </td>
-    <td class="tg-nrix">43.86 ± 1.31 </td>
-    <td class="tg-nrix">53.61 ± 0.46 </td>
-    <td class="tg-nrix">54.08 ± 0.18 </td>
-    <td class="tg-nrix">60.01 ± 0.63 </td>
-    <td class="tg-nrix">59.16 ± 0.18 </td>
-    <td class="tg-nrix">61.00 ± 0.41</td>
+    <td class="tg-nrix" nowrap>Type-II + Symmetric </td>
+    <td class="tg-nrix" nowrap>49.32 ± 0.36 </td>
+    <td class="tg-nrix" nowrap>43.86 ± 1.31 </td>
+    <td class="tg-nrix" nowrap>53.61 ± 0.46 </td>
+    <td class="tg-nrix" nowrap>54.08 ± 0.18 </td>
+    <td class="tg-nrix" nowrap>60.01 ± 0.63 </td>
+    <td class="tg-nrix" nowrap>59.16 ± 0.18 </td>
+    <td class="tg-nrix" nowrap>61.00 ± 0.41</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-II + Asymmetric </td>
-    <td class="tg-nrix">46.50 ± 0.95 </td>
-    <td class="tg-nrix">52.11 ± 0.46 </td>
-    <td class="tg-nrix">51.98 ± 0.37 </td>
-    <td class="tg-nrix">58.53 ± 0.45 </td>
-    <td class="tg-nrix">61.43 ± 0.33 </td>
-    <td class="tg-nrix">58.99 ± 0.91 </td>
-    <td class="tg-nrix">61.35 ± 0.57</td>
+    <td class="tg-nrix" nowrap>Type-II + Asymmetric </td>
+    <td class="tg-nrix" nowrap>46.50 ± 0.95 </td>
+    <td class="tg-nrix" nowrap>52.11 ± 0.46 </td>
+    <td class="tg-nrix" nowrap>51.98 ± 0.37 </td>
+    <td class="tg-nrix" nowrap>58.53 ± 0.45 </td>
+    <td class="tg-nrix" nowrap>61.43 ± 0.33 </td>
+    <td class="tg-nrix" nowrap>58.99 ± 0.91 </td>
+    <td class="tg-nrix" nowrap>61.35 ± 0.57</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-III + Symmetric </td>
-    <td class="tg-nrix">48.94 ± 0.61 </td>
-    <td class="tg-nrix">42.79 ± 1.78 </td>
-    <td class="tg-nrix">52.07 ± 0.35 </td>
-    <td class="tg-nrix">55.29 ± 0.57 </td>
-    <td class="tg-nrix">60.14 ± 0.97 </td>
-    <td class="tg-nrix">58.48 ± 0.79 </td>
-    <td class="tg-nrix">60.21 ± 0.48</td>
+    <td class="tg-nrix" nowrap>Type-III + Symmetric </td>
+    <td class="tg-nrix" nowrap>48.94 ± 0.61 </td>
+    <td class="tg-nrix" nowrap>42.79 ± 1.78 </td>
+    <td class="tg-nrix" nowrap>52.07 ± 0.35 </td>
+    <td class="tg-nrix" nowrap>55.29 ± 0.57 </td>
+    <td class="tg-nrix" nowrap>60.14 ± 0.97 </td>
+    <td class="tg-nrix" nowrap>58.48 ± 0.79 </td>
+    <td class="tg-nrix" nowrap>60.21 ± 0.48</td>
   </tr>
   <tr>
-    <td class="tg-nrix">Type-III + Asymmetric </td>
-    <td class="tg-nrix">45.70 ± 0.12 </td>
-    <td class="tg-nrix">50.31 ± 0.39 </td>
-    <td class="tg-nrix">50.87 ± 1.12 </td>
-    <td class="tg-nrix">58.43 ± 0.60 </td>
-    <td class="tg-nrix">54.56 ± 1.11 </td>
-    <td class="tg-nrix">58.83 ± 0.57 </td>
-    <td class="tg-nrix">60.52 ± 0.53</td>
+    <td class="tg-nrix" nowrap>Type-III + Asymmetric </td>
+    <td class="tg-nrix" nowrap>45.70 ± 0.12 </td>
+    <td class="tg-nrix" nowrap>50.31 ± 0.39 </td>
+    <td class="tg-nrix" nowrap>50.87 ± 1.12 </td>
+    <td class="tg-nrix" nowrap>58.43 ± 0.60 </td>
+    <td class="tg-nrix" nowrap>54.56 ± 1.11 </td>
+    <td class="tg-nrix" nowrap>58.83 ± 0.57 </td>
+    <td class="tg-nrix" nowrap>60.52 ± 0.53</td>
   </tr>
 </tbody>
 </table>
