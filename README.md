@@ -299,14 +299,14 @@ The main results are shown below:
     <tr>
       <td class="tg-0pky" rowspan="9">CIFAR-10</td>
       <td class="tg-c3ow">ERM </td>
-      <td class="tg-c3ow">86.98 ± 0.12 </td>
-      <td class="tg-c3ow">77.52 ± 0.41 </td>
-      <td class="tg-c3ow">73.63 ± 0.85 </td>
-      <td class="tg-c3ow">53.82 ± 1.04 </td>
-      <td class="tg-c3ow">83.60 ± 0.24 </td>
-      <td class="tg-c3ow">77.85 ± 0.98 </td>
-      <td class="tg-c3ow">69.69 ± 0.72 </td>
-      <td class="tg-c3ow">55.20 ± 0.28</td>
+      <td class="tg-c3ow" nowrap>86.98 ± 0.12 </td>
+      <td class="tg-c3ow" nowrap>77.52 ± 0.41 </td>
+      <td class="tg-c3ow" nowrap>73.63 ± 0.85 </td>
+      <td class="tg-c3ow" nowrap>53.82 ± 1.04 </td>
+      <td class="tg-c3ow" nowrap>83.60 ± 0.24 </td>
+      <td class="tg-c3ow" nowrap>77.85 ± 0.98 </td>
+      <td class="tg-c3ow" nowrap>69.69 ± 0.72 </td>
+      <td class="tg-c3ow" nowrap>55.20 ± 0.28</td>
     </tr>
     <tr>
       <td class="tg-0pky">Forward</td>
