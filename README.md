@@ -284,7 +284,7 @@ The main results are shown below:
     <th class="tg-c3ow" colspan="4">Asymmetric Noise</th>
   </tr>
   <tr>
-    <th class="tg-c3ow">0.2</th>
+    <th class="tg-0pky">0.2</th>
     <th class="tg-c3ow">0.4</th>
     <th class="tg-c3ow">0.6</th>
     <th class="tg-c3ow">0.8</th>
@@ -296,7 +296,7 @@ The main results are shown below:
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow" rowspan="9">CIFAR-10</td>
+    <td class="tg-0pky" rowspan="9">CIFAR-10</td>
     <td class="tg-c3ow">ERM </td>
     <td class="tg-c3ow">86.98 ± 0.12 </td>
     <td class="tg-c3ow">77.52 ± 0.41 </td>
@@ -308,7 +308,7 @@ The main results are shown below:
     <td class="tg-c3ow">55.20 ± 0.28</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Forward</td>
+    <td class="tg-0pky">Forward</td>
     <td class="tg-c3ow">87.99 ± 0.36 </td>
     <td class="tg-c3ow">83.25 ± 0.38 </td>
     <td class="tg-c3ow">74.96 ± 0.65 </td>
@@ -319,7 +319,7 @@ The main results are shown below:
     <td class="tg-c3ow">81.07 ± 1.92</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GCE</td>
+    <td class="tg-0pky">GCE</td>
     <td class="tg-c3ow">89.99 ± 0.16 </td>
     <td class="tg-c3ow">87.31 ± 0.53 </td>
     <td class="tg-c3ow">82.15 ± 0.47 </td>
@@ -330,7 +330,7 @@ The main results are shown below:
     <td class="tg-c3ow">57.46 ± 0.31</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">M-correction</td>
+    <td class="tg-0pky">M-correction</td>
     <td class="tg-c3ow">93.80 ± 0.23 </td>
     <td class="tg-c3ow">92.53 ± 0.11 </td>
     <td class="tg-c3ow">90.30 ± 0.34 </td>
@@ -341,7 +341,7 @@ The main results are shown below:
     <td class="tg-c3ow">67.78 ± 1.22</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-0pky">DivideMix</td>
     <td class="tg-c3ow">95.70 ± 0.31 </td>
     <td class="tg-c3ow">95.00 ± 0.17 </td>
     <td class="tg-c3ow">94.23 ± 0.23 </td>
@@ -352,7 +352,7 @@ The main results are shown below:
     <td class="tg-c3ow">59.23 ± 0.38</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">L2RW</td>
+    <td class="tg-0pky">L2RW</td>
     <td class="tg-c3ow">89.45 ± 0.62 </td>
     <td class="tg-c3ow">87.18 ± 0.84 </td>
     <td class="tg-c3ow">81.57 ± 0.66 </td>
@@ -363,7 +363,7 @@ The main results are shown below:
     <td class="tg-c3ow">85.17 ± 0.31</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">MW-Net</td>
+    <td class="tg-0pky">MW-Net</td>
     <td class="tg-c3ow">90.46 ± 0.52 </td>
     <td class="tg-c3ow">86.53 ± 0.57 </td>
     <td class="tg-c3ow">82.98 ± 0.34 </td>
@@ -374,7 +374,7 @@ The main results are shown below:
     <td class="tg-c3ow">58.29 ± 1.33</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CMW-Net </td>
+    <td class="tg-0pky">CMW-Net </td>
     <td class="tg-c3ow">91.09 ± 0.54 </td>
     <td class="tg-c3ow">86.91 ± 0.37 </td>
     <td class="tg-c3ow">83.33 ± 0.55 </td>
@@ -385,7 +385,7 @@ The main results are shown below:
     <td class="tg-c3ow">87.50 ± 0.26</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-0pky">CMW-Net-SL </td>
     <td class="tg-c3ow">96.20 ± 0.33 </td>
     <td class="tg-c3ow">95.29 ± 0.14 </td>
     <td class="tg-c3ow">94.51 ± 0.32 </td>
@@ -396,7 +396,7 @@ The main results are shown below:
     <td class="tg-c3ow">93.07 ± 0.24</td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="9">CIFAR-100</td>
+    <td class="tg-0pky" rowspan="9">CIFAR-100</td>
     <td class="tg-c3ow">ERM </td>
     <td class="tg-c3ow">60.38 ± 0.75 </td>
     <td class="tg-c3ow">46.92 ± 0.51 </td>
@@ -408,7 +408,7 @@ The main results are shown below:
     <td class="tg-c3ow">12.46 ± 0.43</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Forward</td>
+    <td class="tg-0pky">Forward</td>
     <td class="tg-c3ow">63.71 ± 0.49 </td>
     <td class="tg-c3ow">49.34 ± 0.60 </td>
     <td class="tg-c3ow">37.90 ± 0.76 </td>
@@ -419,7 +419,7 @@ The main results are shown below:
     <td class="tg-c3ow">15.84 ± 0.62</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">GCE</td>
+    <td class="tg-0pky">GCE</td>
     <td class="tg-c3ow">68.02 ± 1.05 </td>
     <td class="tg-c3ow">64.18 ± 0.30 </td>
     <td class="tg-c3ow">54.46 ± 0.31 </td>
@@ -430,7 +430,7 @@ The main results are shown below:
     <td class="tg-c3ow">15.82 ± 0.63</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">M-correction</td>
+    <td class="tg-0pky">M-correction</td>
     <td class="tg-c3ow">73.90 ± 0.14 </td>
     <td class="tg-c3ow">70.10 ± 0.14 </td>
     <td class="tg-c3ow">59.50 ± 0.35 </td>
@@ -441,7 +441,7 @@ The main results are shown below:
     <td class="tg-c3ow">16.06 ± 0.33</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-0pky">DivideMix</td>
     <td class="tg-c3ow">76.90 ± 0.21 </td>
     <td class="tg-c3ow">75.20 ± 0.12 </td>
     <td class="tg-c3ow">72.00 ± 0.33 </td>
@@ -452,7 +452,7 @@ The main results are shown below:
     <td class="tg-c3ow">16.98 ± 0.40</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">L2RW</td>
+    <td class="tg-0pky">L2RW</td>
     <td class="tg-c3ow">65.32 ± 0.42 </td>
     <td class="tg-c3ow">55.75 ± 0.81 </td>
     <td class="tg-c3ow">41.16 ± 0.85 </td>
@@ -463,7 +463,7 @@ The main results are shown below:
     <td class="tg-c3ow">12.40 ± 0.61</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">MW-Net</td>
+    <td class="tg-0pky">MW-Net</td>
     <td class="tg-c3ow">69.93 ± 0.40 </td>
     <td class="tg-c3ow">65.29 ± 0.43 </td>
     <td class="tg-c3ow">55.59 ± 1.07 </td>
@@ -474,7 +474,7 @@ The main results are shown below:
     <td class="tg-c3ow">17.05 ± 0.52</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CMW-Net </td>
+    <td class="tg-0pky">CMW-Net </td>
     <td class="tg-c3ow">70.11 ± 0.19 </td>
     <td class="tg-c3ow">65.84 ± 0.50 </td>
     <td class="tg-c3ow">56.93 ± 0.38 </td>
@@ -485,7 +485,7 @@ The main results are shown below:
     <td class="tg-c3ow">17.41 ± 0.16</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-0pky">CMW-Net-SL </td>
     <td class="tg-c3ow">77.84 ± 0.12 </td>
     <td class="tg-c3ow">76.25 ± 0.67 </td>
     <td class="tg-c3ow">72.61 ± 0.92 </td>
