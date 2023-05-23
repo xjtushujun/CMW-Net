@@ -297,7 +297,7 @@ The main results are shown below:
   </thead>
   <tbody>
     <tr>
-      <td class="tg-0pky" rowspan="9">CIFAR-10</td>
+      <td class="tg-0pky" rowspan="9" nowrap>CIFAR-10</td>
       <td class="tg-c3ow" nowrap>ERM </td>
       <td class="tg-c3ow" nowrap>86.98 ± 0.12 </td>
       <td class="tg-c3ow" nowrap>77.52 ± 0.41 </td>
@@ -397,7 +397,7 @@ The main results are shown below:
       <td class="tg-c3ow">93.07 ± 0.24</td>
     </tr>
     <tr>
-      <td class="tg-0pky" rowspan="9">CIFAR-100</td>
+      <td class="tg-0pky" rowspan="9" nowrap>CIFAR-100</td>
       <td class="tg-c3ow">ERM </td>
       <td class="tg-c3ow">60.38 ± 0.75 </td>
       <td class="tg-c3ow">46.92 ± 0.51 </td>
@@ -679,7 +679,7 @@ The main results are shown below:
 </thead>
 <tbody>
   <tr>
-    <td class="tg-cly1" rowspan="6">CIFAR-10</td>
+    <td class="tg-cly1" rowspan="6" nowrap>CIFAR-10</td>
     <td class="tg-cly1" nowrap>Type-I (35%) </td>
     <td class="tg-cly1" nowrap>78.11 ± 0.74 </td>
     <td class="tg-cly1" nowrap>80.98 ± 0.80 </td>
@@ -740,7 +740,7 @@ The main results are shown below:
     <td class="tg-cly1" nowrap>45.15 ± 0.91</td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="6">CIFAR-100</td>
+    <td class="tg-cly1" rowspan="6" nowrap>CIFAR-100</td>
     <td class="tg-cly1" nowrap>Type-I (35%) </td>
     <td class="tg-cly1" nowrap>57.68 ± 0.29 </td>
     <td class="tg-cly1" nowrap>56.74 ± 0.34 </td>
@@ -825,7 +825,7 @@ The main results are shown below:
 </thead>
 <tbody>
   <tr>
-    <td class="tg-nrix" rowspan="6">CIFAR-10</td>
+    <td class="tg-nrix" rowspan="6" nowrap>CIFAR-10</td>
     <td class="tg-nrix" nowrap>Type-I + Symmetric </td>
     <td class="tg-nrix" nowrap>75.26 ± 0.32 </td>
     <td class="tg-nrix" nowrap>75.97 ± 0.27 </td>
@@ -886,7 +886,7 @@ The main results are shown below:
     <td class="tg-nrix" nowrap>80.48 ± 0.48</td>
   </tr>
   <tr>
-    <td class="tg-nrix" rowspan="6">CIFAR-100</td>
+    <td class="tg-nrix" rowspan="6" nowrap>CIFAR-100</td>
     <td class="tg-nrix" nowrap>Type-I + Symmetric </td>
     <td class="tg-nrix" nowrap>48.86 ± 0.56 </td>
     <td class="tg-nrix" nowrap>45.66 ± 1.60 </td>
