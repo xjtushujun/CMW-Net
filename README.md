@@ -53,16 +53,6 @@ bash table1.sh
 ```
 
 The main results are shown below:
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 20px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 20px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -285,394 +275,375 @@ cd section4/Feature-independent_Label_Noise
 bash table2.sh
 ```
 The main results are shown below:
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-9wq8" rowspan="2">Datasets</th>
-    <th class="tg-9wq8" rowspan="2">Noise</th>
-    <th class="tg-9wq8" colspan="4">Symmetric Noise</th>
-    <th class="tg-9wq8" colspan="4">Asymmetric Noise</th>
+    <th class="tg-c3ow" rowspan="2">Datasets</th>
+    <th class="tg-c3ow" rowspan="2">Noise</th>
+    <th class="tg-c3ow" colspan="4">Symmetric Noise</th>
+    <th class="tg-c3ow" colspan="4">Asymmetric Noise</th>
   </tr>
   <tr>
-    <th class="tg-9wq8">0.2</th>
-    <th class="tg-9wq8">0.4</th>
-    <th class="tg-9wq8">0.6</th>
-    <th class="tg-9wq8">0.8</th>
-    <th class="tg-9wq8">0.2</th>
-    <th class="tg-9wq8">0.4</th>
-    <th class="tg-9wq8">0.6</th>
-    <th class="tg-9wq8">0.8</th>
+    <th class="tg-c3ow">0.2</th>
+    <th class="tg-c3ow">0.4</th>
+    <th class="tg-c3ow">0.6</th>
+    <th class="tg-c3ow">0.8</th>
+    <th class="tg-c3ow">0.2</th>
+    <th class="tg-c3ow">0.4</th>
+    <th class="tg-c3ow">0.6</th>
+    <th class="tg-c3ow">0.8</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-9wq8" rowspan="9">CIFAR-10</td>
-    <td class="tg-9wq8">ERM </td>
-    <td class="tg-9wq8">86.98 ± 0.12 </td>
-    <td class="tg-9wq8">77.52 ± 0.41 </td>
-    <td class="tg-9wq8">73.63 ± 0.85 </td>
-    <td class="tg-9wq8">53.82 ± 1.04 </td>
-    <td class="tg-9wq8">83.60 ± 0.24 </td>
-    <td class="tg-9wq8">77.85 ± 0.98 </td>
-    <td class="tg-9wq8">69.69 ± 0.72 </td>
-    <td class="tg-9wq8">55.20 ± 0.28</td>
+    <td class="tg-c3ow" rowspan="9">CIFAR-10</td>
+    <td class="tg-c3ow">ERM </td>
+    <td class="tg-c3ow">86.98 ± 0.12 </td>
+    <td class="tg-c3ow">77.52 ± 0.41 </td>
+    <td class="tg-c3ow">73.63 ± 0.85 </td>
+    <td class="tg-c3ow">53.82 ± 1.04 </td>
+    <td class="tg-c3ow">83.60 ± 0.24 </td>
+    <td class="tg-c3ow">77.85 ± 0.98 </td>
+    <td class="tg-c3ow">69.69 ± 0.72 </td>
+    <td class="tg-c3ow">55.20 ± 0.28</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">Forward</td>
-    <td class="tg-9wq8">87.99 ± 0.36 </td>
-    <td class="tg-9wq8">83.25 ± 0.38 </td>
-    <td class="tg-9wq8">74.96 ± 0.65 </td>
-    <td class="tg-9wq8">54.64 ± 0.44 </td>
-    <td class="tg-9wq8">91.34 ± 0.28 </td>
-    <td class="tg-9wq8">89.87 ± 0.61 </td>
-    <td class="tg-9wq8">87.24 ± 0.96 </td>
-    <td class="tg-9wq8">81.07 ± 1.92</td>
+    <td class="tg-c3ow">Forward</td>
+    <td class="tg-c3ow">87.99 ± 0.36 </td>
+    <td class="tg-c3ow">83.25 ± 0.38 </td>
+    <td class="tg-c3ow">74.96 ± 0.65 </td>
+    <td class="tg-c3ow">54.64 ± 0.44 </td>
+    <td class="tg-c3ow">91.34 ± 0.28 </td>
+    <td class="tg-c3ow">89.87 ± 0.61 </td>
+    <td class="tg-c3ow">87.24 ± 0.96 </td>
+    <td class="tg-c3ow">81.07 ± 1.92</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">GCE</td>
-    <td class="tg-9wq8">89.99 ± 0.16 </td>
-    <td class="tg-9wq8">87.31 ± 0.53 </td>
-    <td class="tg-9wq8">82.15 ± 0.47 </td>
-    <td class="tg-9wq8">57.36 ± 2.08 </td>
-    <td class="tg-9wq8">89.75 ± 1.53 </td>
-    <td class="tg-9wq8">87.75 ± 0.36 </td>
-    <td class="tg-9wq8">67.21 ± 3.64 </td>
-    <td class="tg-9wq8">57.46 ± 0.31</td>
+    <td class="tg-c3ow">GCE</td>
+    <td class="tg-c3ow">89.99 ± 0.16 </td>
+    <td class="tg-c3ow">87.31 ± 0.53 </td>
+    <td class="tg-c3ow">82.15 ± 0.47 </td>
+    <td class="tg-c3ow">57.36 ± 2.08 </td>
+    <td class="tg-c3ow">89.75 ± 1.53 </td>
+    <td class="tg-c3ow">87.75 ± 0.36 </td>
+    <td class="tg-c3ow">67.21 ± 3.64 </td>
+    <td class="tg-c3ow">57.46 ± 0.31</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">M-correction</td>
-    <td class="tg-9wq8">93.80 ± 0.23 </td>
-    <td class="tg-9wq8">92.53 ± 0.11 </td>
-    <td class="tg-9wq8">90.30 ± 0.34 </td>
-    <td class="tg-9wq8">86.80 ± 0.11 </td>
-    <td class="tg-9wq8">92.15 ± 0.18 </td>
-    <td class="tg-9wq8">91.76 ± 0.57 </td>
-    <td class="tg-9wq8">87.59 ± 0.33 </td>
-    <td class="tg-9wq8">67.78 ± 1.22</td>
+    <td class="tg-c3ow">M-correction</td>
+    <td class="tg-c3ow">93.80 ± 0.23 </td>
+    <td class="tg-c3ow">92.53 ± 0.11 </td>
+    <td class="tg-c3ow">90.30 ± 0.34 </td>
+    <td class="tg-c3ow">86.80 ± 0.11 </td>
+    <td class="tg-c3ow">92.15 ± 0.18 </td>
+    <td class="tg-c3ow">91.76 ± 0.57 </td>
+    <td class="tg-c3ow">87.59 ± 0.33 </td>
+    <td class="tg-c3ow">67.78 ± 1.22</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">DivideMix</td>
-    <td class="tg-9wq8">95.70 ± 0.31 </td>
-    <td class="tg-9wq8">95.00 ± 0.17 </td>
-    <td class="tg-9wq8">94.23 ± 0.23 </td>
-    <td class="tg-uzvj">92.90 ± 0.31 </td>
-    <td class="tg-9wq8">93.96 ± 0.21 </td>
-    <td class="tg-9wq8">91.80 ± 0.78 </td>
-    <td class="tg-9wq8">80.14 ± 0.45 </td>
-    <td class="tg-9wq8">59.23 ± 0.38</td>
+    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-c3ow">95.70 ± 0.31 </td>
+    <td class="tg-c3ow">95.00 ± 0.17 </td>
+    <td class="tg-c3ow">94.23 ± 0.23 </td>
+    <td class="tg-c3ow">92.90 ± 0.31 </td>
+    <td class="tg-c3ow">93.96 ± 0.21 </td>
+    <td class="tg-c3ow">91.80 ± 0.78 </td>
+    <td class="tg-c3ow">80.14 ± 0.45 </td>
+    <td class="tg-c3ow">59.23 ± 0.38</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">L2RW</td>
-    <td class="tg-9wq8">89.45 ± 0.62 </td>
-    <td class="tg-9wq8">87.18 ± 0.84 </td>
-    <td class="tg-9wq8">81.57 ± 0.66 </td>
-    <td class="tg-9wq8">58.59 ± 1.84 </td>
-    <td class="tg-9wq8">90.46 ± 0.56 </td>
-    <td class="tg-9wq8">89.76 ± 0.53 </td>
-    <td class="tg-9wq8">88.22 ± 0.71 </td>
-    <td class="tg-9wq8">85.17 ± 0.31</td>
+    <td class="tg-c3ow">L2RW</td>
+    <td class="tg-c3ow">89.45 ± 0.62 </td>
+    <td class="tg-c3ow">87.18 ± 0.84 </td>
+    <td class="tg-c3ow">81.57 ± 0.66 </td>
+    <td class="tg-c3ow">58.59 ± 1.84 </td>
+    <td class="tg-c3ow">90.46 ± 0.56 </td>
+    <td class="tg-c3ow">89.76 ± 0.53 </td>
+    <td class="tg-c3ow">88.22 ± 0.71 </td>
+    <td class="tg-c3ow">85.17 ± 0.31</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">MW-Net</td>
-    <td class="tg-9wq8">90.46 ± 0.52 </td>
-    <td class="tg-9wq8">86.53 ± 0.57 </td>
-    <td class="tg-9wq8">82.98 ± 0.34 </td>
-    <td class="tg-9wq8">64.41 ± 0.92 </td>
-    <td class="tg-9wq8">92.69 ± 0.24 </td>
-    <td class="tg-9wq8">90.17 ± 0.11 </td>
-    <td class="tg-9wq8">68.55 ± 0.76 </td>
-    <td class="tg-9wq8">58.29 ± 1.33</td>
+    <td class="tg-c3ow">MW-Net</td>
+    <td class="tg-c3ow">90.46 ± 0.52 </td>
+    <td class="tg-c3ow">86.53 ± 0.57 </td>
+    <td class="tg-c3ow">82.98 ± 0.34 </td>
+    <td class="tg-c3ow">64.41 ± 0.92 </td>
+    <td class="tg-c3ow">92.69 ± 0.24 </td>
+    <td class="tg-c3ow">90.17 ± 0.11 </td>
+    <td class="tg-c3ow">68.55 ± 0.76 </td>
+    <td class="tg-c3ow">58.29 ± 1.33</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net </td>
-    <td class="tg-9wq8">91.09 ± 0.54 </td>
-    <td class="tg-9wq8">86.91 ± 0.37 </td>
-    <td class="tg-9wq8">83.33 ± 0.55 </td>
-    <td class="tg-9wq8">64.80 ± 0.72 </td>
-    <td class="tg-9wq8">93.02 ± 0.25 </td>
-    <td class="tg-9wq8">92.70 ± 0.32 </td>
-    <td class="tg-9wq8">91.28 ± 0.40 </td>
-    <td class="tg-9wq8">87.50 ± 0.26</td>
+    <td class="tg-c3ow">CMW-Net </td>
+    <td class="tg-c3ow">91.09 ± 0.54 </td>
+    <td class="tg-c3ow">86.91 ± 0.37 </td>
+    <td class="tg-c3ow">83.33 ± 0.55 </td>
+    <td class="tg-c3ow">64.80 ± 0.72 </td>
+    <td class="tg-c3ow">93.02 ± 0.25 </td>
+    <td class="tg-c3ow">92.70 ± 0.32 </td>
+    <td class="tg-c3ow">91.28 ± 0.40 </td>
+    <td class="tg-c3ow">87.50 ± 0.26</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL </td>
-    <td class="tg-uzvj">96.20 ± 0.33 </td>
-    <td class="tg-uzvj">95.29 ± 0.14 </td>
-    <td class="tg-uzvj">94.51 ± 0.32 </td>
-    <td class="tg-9wq8">92.10 ± 0.76 </td>
-    <td class="tg-uzvj">95.48 ± 0.29 </td>
-    <td class="tg-uzvj">94.51 ± 0.52 </td>
-    <td class="tg-uzvj">94.18 ± 0.21 </td>
-    <td class="tg-uzvj">93.07 ± 0.24</td>
+    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-c3ow">96.20 ± 0.33 </td>
+    <td class="tg-c3ow">95.29 ± 0.14 </td>
+    <td class="tg-c3ow">94.51 ± 0.32 </td>
+    <td class="tg-c3ow">92.10 ± 0.76 </td>
+    <td class="tg-c3ow">95.48 ± 0.29 </td>
+    <td class="tg-c3ow">94.51 ± 0.52 </td>
+    <td class="tg-c3ow">94.18 ± 0.21 </td>
+    <td class="tg-c3ow">93.07 ± 0.24</td>
   </tr>
   <tr>
-    <td class="tg-9wq8" rowspan="9">CIFAR-100</td>
-    <td class="tg-9wq8">ERM </td>
-    <td class="tg-9wq8">60.38 ± 0.75 </td>
-    <td class="tg-9wq8">46.92 ± 0.51 </td>
-    <td class="tg-9wq8">31.82 ± 1.16 </td>
-    <td class="tg-9wq8">8.29 ± 3.24 </td>
-    <td class="tg-9wq8">61.05 ± 0.11 </td>
-    <td class="tg-9wq8">50.30 ± 1.11 </td>
-    <td class="tg-9wq8">37.34 ± 1.80 </td>
-    <td class="tg-9wq8">12.46 ± 0.43</td>
+    <td class="tg-c3ow" rowspan="9">CIFAR-100</td>
+    <td class="tg-c3ow">ERM </td>
+    <td class="tg-c3ow">60.38 ± 0.75 </td>
+    <td class="tg-c3ow">46.92 ± 0.51 </td>
+    <td class="tg-c3ow">31.82 ± 1.16 </td>
+    <td class="tg-c3ow">8.29 ± 3.24 </td>
+    <td class="tg-c3ow">61.05 ± 0.11 </td>
+    <td class="tg-c3ow">50.30 ± 1.11 </td>
+    <td class="tg-c3ow">37.34 ± 1.80 </td>
+    <td class="tg-c3ow">12.46 ± 0.43</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">Forward</td>
-    <td class="tg-9wq8">63.71 ± 0.49 </td>
-    <td class="tg-9wq8">49.34 ± 0.60 </td>
-    <td class="tg-9wq8">37.90 ± 0.76 </td>
-    <td class="tg-9wq8">9.57 ± 1.01 </td>
-    <td class="tg-9wq8">64.97 ± 0.47 </td>
-    <td class="tg-9wq8">52.37 ± 0.71 </td>
-    <td class="tg-9wq8">44.58 ± 0.60 </td>
-    <td class="tg-9wq8">15.84 ± 0.62</td>
+    <td class="tg-c3ow">Forward</td>
+    <td class="tg-c3ow">63.71 ± 0.49 </td>
+    <td class="tg-c3ow">49.34 ± 0.60 </td>
+    <td class="tg-c3ow">37.90 ± 0.76 </td>
+    <td class="tg-c3ow">9.57 ± 1.01 </td>
+    <td class="tg-c3ow">64.97 ± 0.47 </td>
+    <td class="tg-c3ow">52.37 ± 0.71 </td>
+    <td class="tg-c3ow">44.58 ± 0.60 </td>
+    <td class="tg-c3ow">15.84 ± 0.62</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">GCE</td>
-    <td class="tg-9wq8">68.02 ± 1.05 </td>
-    <td class="tg-9wq8">64.18 ± 0.30 </td>
-    <td class="tg-9wq8">54.46 ± 0.31 </td>
-    <td class="tg-9wq8">15.61 ± 0.97 </td>
-    <td class="tg-9wq8">66.15 ± 0.44 </td>
-    <td class="tg-9wq8">56.85 ± 0.72 </td>
-    <td class="tg-9wq8">40.58 ± 0.47 </td>
-    <td class="tg-9wq8">15.82 ± 0.63</td>
+    <td class="tg-c3ow">GCE</td>
+    <td class="tg-c3ow">68.02 ± 1.05 </td>
+    <td class="tg-c3ow">64.18 ± 0.30 </td>
+    <td class="tg-c3ow">54.46 ± 0.31 </td>
+    <td class="tg-c3ow">15.61 ± 0.97 </td>
+    <td class="tg-c3ow">66.15 ± 0.44 </td>
+    <td class="tg-c3ow">56.85 ± 0.72 </td>
+    <td class="tg-c3ow">40.58 ± 0.47 </td>
+    <td class="tg-c3ow">15.82 ± 0.63</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">M-correction</td>
-    <td class="tg-9wq8">73.90 ± 0.14 </td>
-    <td class="tg-9wq8">70.10 ± 0.14 </td>
-    <td class="tg-9wq8">59.50 ± 0.35 </td>
-    <td class="tg-9wq8">48.20 ± 0.23 </td>
-    <td class="tg-9wq8">71.85 ± 0.19 </td>
-    <td class="tg-9wq8">70.83 ± 0.48 </td>
-    <td class="tg-9wq8">60.51 ± 0.52 </td>
-    <td class="tg-9wq8">16.06 ± 0.33</td>
+    <td class="tg-c3ow">M-correction</td>
+    <td class="tg-c3ow">73.90 ± 0.14 </td>
+    <td class="tg-c3ow">70.10 ± 0.14 </td>
+    <td class="tg-c3ow">59.50 ± 0.35 </td>
+    <td class="tg-c3ow">48.20 ± 0.23 </td>
+    <td class="tg-c3ow">71.85 ± 0.19 </td>
+    <td class="tg-c3ow">70.83 ± 0.48 </td>
+    <td class="tg-c3ow">60.51 ± 0.52 </td>
+    <td class="tg-c3ow">16.06 ± 0.33</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">DivideMix</td>
-    <td class="tg-9wq8">76.90 ± 0.21 </td>
-    <td class="tg-9wq8">75.20 ± 0.12 </td>
-    <td class="tg-9wq8">72.00 ± 0.33 </td>
-    <td class="tg-uzvj">59.60 ± 0.21 </td>
-    <td class="tg-9wq8">76.12 ± 0.44 </td>
-    <td class="tg-9wq8">73.47 ± 0.63 </td>
-    <td class="tg-9wq8">45.83 ± 0.83 </td>
-    <td class="tg-9wq8">16.98 ± 0.40</td>
+    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-c3ow">76.90 ± 0.21 </td>
+    <td class="tg-c3ow">75.20 ± 0.12 </td>
+    <td class="tg-c3ow">72.00 ± 0.33 </td>
+    <td class="tg-c3ow">59.60 ± 0.21 </td>
+    <td class="tg-c3ow">76.12 ± 0.44 </td>
+    <td class="tg-c3ow">73.47 ± 0.63 </td>
+    <td class="tg-c3ow">45.83 ± 0.83 </td>
+    <td class="tg-c3ow">16.98 ± 0.40</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">L2RW</td>
-    <td class="tg-9wq8">65.32 ± 0.42 </td>
-    <td class="tg-9wq8">55.75 ± 0.81 </td>
-    <td class="tg-9wq8">41.16 ± 0.85 </td>
-    <td class="tg-9wq8">16.80 ± 0.22 </td>
-    <td class="tg-9wq8">65.93 ± 0.17 </td>
-    <td class="tg-9wq8">62.48 ± 0.56 </td>
-    <td class="tg-9wq8">51.66 ± 0.49 </td>
-    <td class="tg-9wq8">12.40 ± 0.61</td>
+    <td class="tg-c3ow">L2RW</td>
+    <td class="tg-c3ow">65.32 ± 0.42 </td>
+    <td class="tg-c3ow">55.75 ± 0.81 </td>
+    <td class="tg-c3ow">41.16 ± 0.85 </td>
+    <td class="tg-c3ow">16.80 ± 0.22 </td>
+    <td class="tg-c3ow">65.93 ± 0.17 </td>
+    <td class="tg-c3ow">62.48 ± 0.56 </td>
+    <td class="tg-c3ow">51.66 ± 0.49 </td>
+    <td class="tg-c3ow">12.40 ± 0.61</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">MW-Net</td>
-    <td class="tg-9wq8">69.93 ± 0.40 </td>
-    <td class="tg-9wq8">65.29 ± 0.43 </td>
-    <td class="tg-9wq8">55.59 ± 1.07 </td>
-    <td class="tg-9wq8">27.63 ± 0.56 </td>
-    <td class="tg-9wq8">69.80 ± 0.34 </td>
-    <td class="tg-9wq8">64.88 ± 0.63 </td>
-    <td class="tg-9wq8">56.89 ± 0.95 </td>
-    <td class="tg-9wq8">17.05 ± 0.52</td>
+    <td class="tg-c3ow">MW-Net</td>
+    <td class="tg-c3ow">69.93 ± 0.40 </td>
+    <td class="tg-c3ow">65.29 ± 0.43 </td>
+    <td class="tg-c3ow">55.59 ± 1.07 </td>
+    <td class="tg-c3ow">27.63 ± 0.56 </td>
+    <td class="tg-c3ow">69.80 ± 0.34 </td>
+    <td class="tg-c3ow">64.88 ± 0.63 </td>
+    <td class="tg-c3ow">56.89 ± 0.95 </td>
+    <td class="tg-c3ow">17.05 ± 0.52</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net </td>
-    <td class="tg-9wq8">70.11 ± 0.19 </td>
-    <td class="tg-9wq8">65.84 ± 0.50 </td>
-    <td class="tg-9wq8">56.93 ± 0.38 </td>
-    <td class="tg-9wq8">28.36 ± 0.67 </td>
-    <td class="tg-9wq8">71.07 ± 0.56 </td>
-    <td class="tg-9wq8">66.15 ± 0.51 </td>
-    <td class="tg-9wq8">58.21 ± 0.78 </td>
-    <td class="tg-9wq8">17.41 ± 0.16</td>
+    <td class="tg-c3ow">CMW-Net </td>
+    <td class="tg-c3ow">70.11 ± 0.19 </td>
+    <td class="tg-c3ow">65.84 ± 0.50 </td>
+    <td class="tg-c3ow">56.93 ± 0.38 </td>
+    <td class="tg-c3ow">28.36 ± 0.67 </td>
+    <td class="tg-c3ow">71.07 ± 0.56 </td>
+    <td class="tg-c3ow">66.15 ± 0.51 </td>
+    <td class="tg-c3ow">58.21 ± 0.78 </td>
+    <td class="tg-c3ow">17.41 ± 0.16</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL </td>
-    <td class="tg-uzvj">77.84 ± 0.12 </td>
-    <td class="tg-uzvj">76.25 ± 0.67 </td>
-    <td class="tg-uzvj">72.61 ± 0.92 </td>
-    <td class="tg-9wq8">55.21 ± 0.31 </td>
-    <td class="tg-uzvj">77.73 ± 0.37 </td>
-    <td class="tg-uzvj">75.69 ± 0.68 </td>
-    <td class="tg-uzvj">61.54 ± 0.72 </td>
-    <td class="tg-uzvj">18.34 ± 0.21</td>
+    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-c3ow">77.84 ± 0.12 </td>
+    <td class="tg-c3ow">76.25 ± 0.67 </td>
+    <td class="tg-c3ow">72.61 ± 0.92 </td>
+    <td class="tg-c3ow">55.21 ± 0.31 </td>
+    <td class="tg-c3ow">77.73 ± 0.37 </td>
+    <td class="tg-c3ow">75.69 ± 0.68 </td>
+    <td class="tg-c3ow">61.54 ± 0.72 </td>
+    <td class="tg-c3ow">18.34 ± 0.21</td>
   </tr>
 </tbody>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 20px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 20px;word-break:normal;}
-.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-9wq8" rowspan="2">Datasets</th>
-    <th class="tg-9wq8" rowspan="2">Noise</th>
-    <th class="tg-9wq8" colspan="4">Symmetric</th>
-    <th class="tg-9wq8">Asy. Noise</th>
+    <th class="tg-c3ow" rowspan="2">Datasets</th>
+    <th class="tg-c3ow" rowspan="2">Noise</th>
+    <th class="tg-c3ow" colspan="4">Symmetric</th>
+    <th class="tg-c3ow">Asy. Noise</th>
   </tr>
   <tr>
-    <th class="tg-9wq8">0.2 </th>
-    <th class="tg-9wq8">0.5 </th>
-    <th class="tg-9wq8">0.8 </th>
-    <th class="tg-9wq8">0.9 </th>
-    <th class="tg-9wq8">0.4</th>
+    <th class="tg-c3ow">0.2 </th>
+    <th class="tg-c3ow">0.5 </th>
+    <th class="tg-c3ow">0.8 </th>
+    <th class="tg-c3ow">0.9 </th>
+    <th class="tg-c3ow">0.4</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-9wq8" rowspan="8">CIFAR-10</td>
-    <td class="tg-9wq8">DivideMix</td>
-    <td class="tg-9wq8">95.7 </td>
-    <td class="tg-9wq8">94.4 </td>
-    <td class="tg-9wq8">92.9 </td>
-    <td class="tg-9wq8">75.4 </td>
-    <td class="tg-9wq8">92.1</td>
+    <td class="tg-c3ow" rowspan="8">CIFAR-10</td>
+    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-c3ow">95.7 </td>
+    <td class="tg-c3ow">94.4 </td>
+    <td class="tg-c3ow">92.9 </td>
+    <td class="tg-c3ow">75.4 </td>
+    <td class="tg-c3ow">92.1</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">ELR+</td>
-    <td class="tg-9wq8">94.6 </td>
-    <td class="tg-9wq8">93.8 </td>
-    <td class="tg-9wq8">93.1 </td>
-    <td class="tg-9wq8">75.2 </td>
-    <td class="tg-9wq8">92.7</td>
+    <td class="tg-c3ow">ELR+</td>
+    <td class="tg-c3ow">94.6 </td>
+    <td class="tg-c3ow">93.8 </td>
+    <td class="tg-c3ow">93.1 </td>
+    <td class="tg-c3ow">75.2 </td>
+    <td class="tg-c3ow">92.7</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">REED</td>
-    <td class="tg-9wq8">95.7 </td>
-    <td class="tg-9wq8">95.4 </td>
-    <td class="tg-9wq8">94.1 </td>
-    <td class="tg-9wq8">93.5 </td>
-    <td class="tg-9wq8">-</td>
+    <td class="tg-c3ow">REED</td>
+    <td class="tg-c3ow">95.7 </td>
+    <td class="tg-c3ow">95.4 </td>
+    <td class="tg-c3ow">94.1 </td>
+    <td class="tg-c3ow">93.5 </td>
+    <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">AugDesc</td>
-    <td class="tg-9wq8">96.2 </td>
-    <td class="tg-9wq8">95.1 </td>
-    <td class="tg-9wq8">93.6 </td>
-    <td class="tg-9wq8">91.8 </td>
-    <td class="tg-9wq8">94.3</td>
+    <td class="tg-c3ow">AugDesc</td>
+    <td class="tg-c3ow">96.2 </td>
+    <td class="tg-c3ow">95.1 </td>
+    <td class="tg-c3ow">93.6 </td>
+    <td class="tg-c3ow">91.8 </td>
+    <td class="tg-c3ow">94.3</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">C2D</td>
-    <td class="tg-9wq8">96.2 </td>
-    <td class="tg-9wq8">95.1 </td>
-    <td class="tg-9wq8">94.3 </td>
-    <td class="tg-9wq8">93.4 </td>
-    <td class="tg-9wq8">90.8</td>
+    <td class="tg-c3ow">C2D</td>
+    <td class="tg-c3ow">96.2 </td>
+    <td class="tg-c3ow">95.1 </td>
+    <td class="tg-c3ow">94.3 </td>
+    <td class="tg-c3ow">93.4 </td>
+    <td class="tg-c3ow">90.8</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">Two-step</td>
-    <td class="tg-9wq8">96.2 </td>
-    <td class="tg-9wq8">95.3 </td>
-    <td class="tg-9wq8">93.7 </td>
-    <td class="tg-uzvj">92.7 </td>
-    <td class="tg-9wq8">92.4</td>
+    <td class="tg-c3ow">Two-step</td>
+    <td class="tg-c3ow">96.2 </td>
+    <td class="tg-c3ow">95.3 </td>
+    <td class="tg-c3ow">93.7 </td>
+    <td class="tg-c3ow">92.7 </td>
+    <td class="tg-c3ow">92.4</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL </td>
-    <td class="tg-9wq8">96.2 </td>
-    <td class="tg-9wq8">95.1 </td>
-    <td class="tg-9wq8">92.1 </td>
-    <td class="tg-9wq8">48.0 </td>
-    <td class="tg-9wq8">94.5</td>
+    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-c3ow">96.2 </td>
+    <td class="tg-c3ow">95.1 </td>
+    <td class="tg-c3ow">92.1 </td>
+    <td class="tg-c3ow">48.0 </td>
+    <td class="tg-c3ow">94.5</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL+ </td>
-    <td class="tg-uzvj">96.6 </td>
-    <td class="tg-uzvj">96.2 </td>
-    <td class="tg-uzvj">95.4 </td>
-    <td class="tg-uzvj">93.7 </td>
-    <td class="tg-uzvj">96.0</td>
+    <td class="tg-c3ow">CMW-Net-SL+ </td>
+    <td class="tg-c3ow">96.6 </td>
+    <td class="tg-c3ow">96.2 </td>
+    <td class="tg-c3ow">95.4 </td>
+    <td class="tg-c3ow">93.7 </td>
+    <td class="tg-c3ow">96.0</td>
   </tr>
   <tr>
-    <td class="tg-9wq8" rowspan="8">CIFAR-100</td>
-    <td class="tg-9wq8">DivideMix</td>
-    <td class="tg-9wq8">77.3 </td>
-    <td class="tg-9wq8">74.6 </td>
-    <td class="tg-9wq8">60.2 </td>
-    <td class="tg-9wq8">31.5 </td>
-    <td class="tg-9wq8">72.1</td>
+    <td class="tg-c3ow" rowspan="8">CIFAR-100</td>
+    <td class="tg-c3ow">DivideMix</td>
+    <td class="tg-c3ow">77.3 </td>
+    <td class="tg-c3ow">74.6 </td>
+    <td class="tg-c3ow">60.2 </td>
+    <td class="tg-c3ow">31.5 </td>
+    <td class="tg-c3ow">72.1</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">ELR+</td>
-    <td class="tg-uzvj">77.5 </td>
-    <td class="tg-uzvj">72.4 </td>
-    <td class="tg-uzvj">58.2 </td>
-    <td class="tg-9wq8">30.8 </td>
-    <td class="tg-uzvj">76.5</td>
+    <td class="tg-c3ow">ELR+</td>
+    <td class="tg-c3ow">77.5 </td>
+    <td class="tg-c3ow">72.4 </td>
+    <td class="tg-c3ow">58.2 </td>
+    <td class="tg-c3ow">30.8 </td>
+    <td class="tg-c3ow">76.5</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">REED</td>
-    <td class="tg-9wq8">76.5 </td>
-    <td class="tg-9wq8">72.2 </td>
-    <td class="tg-9wq8">66.5 </td>
-    <td class="tg-9wq8">59.4 </td>
-    <td class="tg-9wq8">-</td>
+    <td class="tg-c3ow">REED</td>
+    <td class="tg-c3ow">76.5 </td>
+    <td class="tg-c3ow">72.2 </td>
+    <td class="tg-c3ow">66.5 </td>
+    <td class="tg-c3ow">59.4 </td>
+    <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">AugDesc</td>
-    <td class="tg-9wq8">79.2 </td>
-    <td class="tg-9wq8">77.0 </td>
-    <td class="tg-9wq8">66.1 </td>
-    <td class="tg-9wq8">40.9 </td>
-    <td class="tg-9wq8">76.8</td>
+    <td class="tg-c3ow">AugDesc</td>
+    <td class="tg-c3ow">79.2 </td>
+    <td class="tg-c3ow">77.0 </td>
+    <td class="tg-c3ow">66.1 </td>
+    <td class="tg-c3ow">40.9 </td>
+    <td class="tg-c3ow">76.8</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">C2D</td>
-    <td class="tg-9wq8">78.3 </td>
-    <td class="tg-9wq8">76.1 </td>
-    <td class="tg-9wq8">67.4 </td>
-    <td class="tg-9wq8">58.5 </td>
-    <td class="tg-9wq8">75.1</td>
+    <td class="tg-c3ow">C2D</td>
+    <td class="tg-c3ow">78.3 </td>
+    <td class="tg-c3ow">76.1 </td>
+    <td class="tg-c3ow">67.4 </td>
+    <td class="tg-c3ow">58.5 </td>
+    <td class="tg-c3ow">75.1</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">Two-step</td>
-    <td class="tg-9wq8">79.1 </td>
-    <td class="tg-9wq8">78.2 </td>
-    <td class="tg-9wq8">70.1 </td>
-    <td class="tg-9wq8">53.2 </td>
-    <td class="tg-9wq8">65.5</td>
+    <td class="tg-c3ow">Two-step</td>
+    <td class="tg-c3ow">79.1 </td>
+    <td class="tg-c3ow">78.2 </td>
+    <td class="tg-c3ow">70.1 </td>
+    <td class="tg-c3ow">53.2 </td>
+    <td class="tg-c3ow">65.5</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL </td>
-    <td class="tg-9wq8">77.84 </td>
-    <td class="tg-9wq8">76.2 </td>
-    <td class="tg-9wq8">55.2 </td>
-    <td class="tg-uzvj">21.2 </td>
-    <td class="tg-9wq8">75.7</td>
+    <td class="tg-c3ow">CMW-Net-SL </td>
+    <td class="tg-c3ow">77.84 </td>
+    <td class="tg-c3ow">76.2 </td>
+    <td class="tg-c3ow">55.2 </td>
+    <td class="tg-c3ow">21.2 </td>
+    <td class="tg-c3ow">75.7</td>
   </tr>
   <tr>
-    <td class="tg-9wq8">CMW-Net-SL+ </td>
-    <td class="tg-uzvj">80.2 </td>
-    <td class="tg-uzvj">78.2 </td>
-    <td class="tg-uzvj">71.1 </td>
-    <td class="tg-uzvj">64.6 </td>
-    <td class="tg-uzvj">77.2</td>
+    <td class="tg-c3ow">CMW-Net-SL+ </td>
+    <td class="tg-c3ow">80.2 </td>
+    <td class="tg-c3ow">78.2 </td>
+    <td class="tg-c3ow">71.1 </td>
+    <td class="tg-c3ow">64.6 </td>
+    <td class="tg-c3ow">77.2</td>
   </tr>
 </tbody>
 </table>
