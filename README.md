@@ -25,9 +25,9 @@ Modern deep neural networks (DNNs) can easily overfit to biased training data co
 Sample re-weighting methods are popularly used to alleviate this data bias issue. Most current methods, however, require manually
 pre-specifying the weighting schemes as well as their additional hyper-parameters relying on the characteristics of the investigated
 problem and training data. This makes them fairly hard to be generally applied in practical scenarios, due to their significant complexities
-and inter-class variations of data bias situations. To address this issue, we propose a meta-model capable of adaptively learning an explicit weighting scheme directly from data. Specifically, by seeing each training class as a separate learning task, our method aims to extract an explicit weighting function with sample loss and task/class feature as input, and sample weight as output, expecting to impose adaptively varying weighting schemes to different sample classes based on their own intrinsic bias characteristics. The architectures of the model is blow:
+and inter-class variations of data bias situations. To address this issue, we propose a meta-model capable of adaptively learning an explicit weighting scheme directly from data. Specifically, by seeing each training class as a separate learning task, our method aims to extract an explicit weighting function with sample loss and task/class feature as input, and sample weight as output, expecting to impose adaptively varying weighting schemes to different sample classes based on their own intrinsic bias characteristics. The architectures of the CMW-Net meta-model is shown blow:
 <div  align="center">    
-    <img src="fig/weightnet_class.jpg" width="20%" height="20%" align=center />
+    <img src="fig/weightnet_class.jpg" width="40%" height="40%" align=center />
 </div>
 
 ## Prerequisites
