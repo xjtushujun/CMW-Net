@@ -1,5 +1,12 @@
 # CMW-Net
-This is an official PyTorch implementation of [CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning](https://arxiv.org/pdf/2202.05613.pdf).
+TPAMI2023: CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning (Official Pytorch implementation)
+
+================================================================================================================================================================
+
+
+This is the code for the paper:
+MW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning. Jun Shu, Xiang Yuan, Deyu Meng, and Zongben Xu. [Official site](https://ieeexplore.ieee.org/abstract/document/10113668) ,  [Arxiv Vervision]([https://github.com/xjtushujun/Probabilistic-MW-Net/blob/main/PMWNet_journal.pdf](https://arxiv.org/pdf/2202.05613.pdf))
+
 ****
 ## CONTENTS
 
