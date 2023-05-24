@@ -5,7 +5,7 @@ TPAMI2023: CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust D
 
 
 This is the code for the paper:
-MW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning. Jun Shu, Xiang Yuan, Deyu Meng, and Zongben Xu. [Official site](https://ieeexplore.ieee.org/abstract/document/10113668),  [Arxiv Vervision](https://arxiv.org/pdf/2202.05613.pdf))
+CMW-Net: Learning a Class-Aware Sample Weighting Mapping for Robust Deep Learning. Jun Shu, Xiang Yuan, Deyu Meng, and Zongben Xu. [Official site](https://ieeexplore.ieee.org/abstract/document/10113668),  [Arxiv Vervision](https://arxiv.org/pdf/2202.05613.pdf)
 
 ****
 ## CONTENTS
