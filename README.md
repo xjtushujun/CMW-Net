@@ -1036,7 +1036,7 @@ Details can refer to Section 5.2 of the main paper.
 A potential usefulness of the metalearned weighing scheme by CMW-Net is that it is modelagnostic and hopefully equipped into other learning algorithms in a plug-and-play manner. To validate such transferable capability of CMW-Net, we attempt to transfer meta-learned CMW-Net on relatively smaller dataset to significantly larger-scale ones. In specific, we use CMWNet trained on CIFAR-10 with feature-dependent label noise (i.e.,35% Type-I + 30% Asymmetric) as introduced in Sec. 4.3 in the paper since it finely simulates the real-world noise configuration. The extracted weighting function is depicted blew.
 
 <div  align="center">    
-    <img src="fig/all_weight_cmwn.jpg" width="20%" height="20%" align=center />
+    <img src="fig/all_weight_cmwn.jpg" width="40%" height="40%" align=center />
 </div>
 
 
@@ -1082,12 +1082,12 @@ The main results are shown below.
 
 Accuracy comparisons on PRODEN w/o CMW-Net strategy over CIFAR-10: 
 <div  align="center">    
-    <img src="fig/partial_cifar10.jpg" width="20%" height="20%" align=center />
+    <img src="fig/partial_cifar10.jpg" width="40%" height="40%" align=center />
 </div>
 
 Accuracy comparisons on PRODEN w/o CMW-Net strategy over CIFAR-100: 
 <div  align="center">    
-    <img src="fig/partial_cifar100.jpg" width="20%" height="20%" align=center />
+    <img src="fig/partial_cifar100.jpg" width="40%" height="40%" align=center />
 </div>
 
 <!-- ![partial_cifar100](fig/partial_cifar100.jpg) -->
